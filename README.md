@@ -19,17 +19,19 @@ Anyhow, libraries in the local version of the project will be managed with in a 
 
 Folders
 
-- The `data/` directory contains raw data, cleaned data, and other miscellany like FPED crosswalks to link USDA food codes to food groups. Raw data should be only `.xpt` files still warm from the CDC. We should also include cleaned datasets saved as `.csv` files. 
+- The `data/` directory contains raw data, cleaned data, and other miscellany like FPED crosswalks to link USDA food codes to food groups. Raw data should be only `.xpt` files still warm from the CDC. We should also include cleaned datasets saved as `.csv` files, along with a `.info` file that contains provenance and metadata for datasets in each folder. 
 - `notebooks/` should have `.ipynb` files and contain the main workflow for the project. 
 - `ds1_nhanes/` is the package directory which will contain modules with functions to use throughout the project.
 - The `outputs/` folder should contain graphs and tables ready to throw into Overleaf. 
 - The `tests/` folder will contain unit testing for project functions and deployment. 
-- Folders should have a `.info` file with provenance for the files contained therein.
+- The `.git/` folder is used to manage version control. There is generally no need to edit it directly.
+- Folders should have a `.info` file with provenance for the files contained therein, particularly for modified datasets.
 
 Loose Files
 
 - The `.gitignore` file tells git what not to track.
 - The `requirements.txt` file is a log of all the libraries that are used in the project. 
+- The `README.md` is a markdown that produces the html version shown on the repo. 
 
 ## Reproduction
 
@@ -38,7 +40,7 @@ To reproduce the analysis, follow these steps.
 ### 1. Create a Virtual Environment
 
 ```
-python -m .venv
+python -m venv .venv
 ```
 
 ### 2. Activate Environment
@@ -46,7 +48,7 @@ python -m .venv
 For Mac/Linux, activate the environment using:
 
 ```
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 For Windows Commmand Prompt, activate the environment using:
@@ -58,7 +60,7 @@ source .venv/Scripts/activate
 For Windows PowerShell, activate the environment using:
 
 ```
-venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 ```
 
 ### 3. Install Packages
