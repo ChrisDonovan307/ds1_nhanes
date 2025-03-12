@@ -1,4 +1,4 @@
-_Last updated: March 9, 2025_
+_Last updated: March 12th, 2025_
 
 # ds1_nhanes
 
@@ -21,17 +21,19 @@ Folders
 
 - The `data/` directory contains raw data, cleaned data, and other miscellany like FPED crosswalks to link USDA food codes to food groups. Raw data should be only `.xpt` files still warm from the CDC. We should also include cleaned datasets saved as `.csv` files, along with a `.info` file that contains provenance and metadata for datasets in each folder. 
 - `notebooks/` should have `.ipynb` files and contain the main workflow for the project. 
-- `ds1_nhanes/` is the package directory which will contain modules with functions to use throughout the project.
+- `ds1_nhanes/` is the package directory which will contain modules with functions to use throughout the project. They will be imported and called from notebooks.
 - The `outputs/` folder should contain graphs and tables ready to throw into Overleaf. 
 - The `tests/` folder will contain unit testing for project functions and deployment. 
-- The `.git/` folder is used to manage version control. There is generally no need to edit it directly.
+- The `dev/` folder will exist only on Colab and contain a jenky terminal and possibly other tools in development. Generally no need to run anything from here.
+- The `.git/` folder is used to manage version control. There is no need to edit it directly or interact with it much at all. Git is managed from the command line.
 - Folders should have a `.info` file with provenance for the files contained therein, particularly for modified datasets.
 
 Loose Files
 
 - The `.gitignore` file tells git what not to track.
 - The `requirements.txt` file is a log of all the libraries that are used in the project. 
-- The `README.md` is a markdown that produces the html version shown on the repo. 
+- The `README.md` is a markdown that produces the html version shown on the repo. This will be rendered and included as a `.pdf` to make it easier to access on Drive as well.
+- The text of the license is included in `LICENSE.md`. 
 
 ## Reproduction
 
@@ -100,4 +102,4 @@ Carbon emissions and cumulative energy demand for food consumption patterns were
 
 ## Changelog
 
-- Major changes go here
+**2025-03-11:** Built project structure in Colab, linked Colab with GitHub, and shared all repositories with team members.
