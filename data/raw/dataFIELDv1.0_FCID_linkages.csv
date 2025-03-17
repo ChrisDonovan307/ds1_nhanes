@@ -1,0 +1,1002 @@
+﻿,,,,,UTILIZED IMPACT FACTORS,,,,farm gate (=1),PROXY DEFINITION,ENERGY USE MJ/kg,,,,GHG Emissions (kg CO2eq/kg),,,,additional processing inputs for select foods,,,VARIANCE CALCULATIONS,,,,,,,,,
+,,,,number of times specific commodity appears in FCID recipe files,CED ,GHG ,,,,,PROXY?,,,,PROXY?,,,,Energy (MJ),GHG (kgCO2eq),,Energy Use (MJ/kg),,,,,GHGE,,,,
+FCID_Code,FCID_Desc,Weight_Basis_ as defined by FCID,Comments (from FCID),N_Cases,MJ / kg,CO2 eq / kg,weight Conversion Factor,conversion factor source, or processor gate (=2)?,,,# of datapoints,N-average,Std. Dev,,# of datapoints,N-average,Std. Dev,,,,basis,n,proxy group mean,SD (group or indiv food),scaled SD (group SD*food mean/group mean),basis,n,proxy group mean,SD (group or indiv food),scaled SD (group SD*food mean/group mean)
+101050000,"Beet, garden, roots",weight of roots; juice,,659,1.221,0.194,1.11,AgHB,1,,DB value,1,1.100,0.000,DB value,2,0.175,0.092,,,,roots,14,1.422071429,0.574420439,0.444325419,roots,25,0.2134,0.179920353,0.147544807
+101052000,"Beet, sugar",dry weight of sugar (sucrose),Sucrose is a disaccharide obtained from sugar cane and sugar beet.,49979,4.574,0.391,1,FICRCD,2,,DB value,4,4.574,0.637,DB value,4,0.391,0.076,,,,sweeteners,14,8.845345584,17.46832841,9.033479887,sweeteners,13,1.061185914,1.805599706,0.664914384
+101053000,"Beet, sugar, molasses",weight of molasses,,7656,3.476,0.288,1,FICRCD,2,,DB value,4,3.476,0.378,DB value,4,0.288,0.047,,,,sweeteners,14,8.845345584,17.46832841,6.864320758,sweeteners,13,1.061185914,1.805599706,0.489336436
+101067000,Burdock,weight of roots,,2,1.891,0.284,1.33,NNDSR28,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+101078000,Carrot,"weight of roots, with or without peel, excluding tops",,14222,1.326,0.092,1.12,FICRCD,1,,DB value,5,1.184,0.638,DB value,5,0.082,0.052,,,,DIRECT,5,,0.638058148,0.638058148,DIRECT,5,,0.051982689,0.051982689
+101079000,"Carrot, juice",weight of juice at single strength (or standard dilution),,630,6.608,1.071,1.12,FICRCD,1,carrot,PROXY,5,1.184,0.638,PROXY,5,0.082,0.052,5.282,0.979,,roots,14,1.422071429,0.574420439,0.478174937,roots,25,0.2134,0.179920353,0.068966658
+101100000,"Chicory, roots",weight of roots,,75,0.154,0.050,1,None,1,,DB value,2,0.154,0.014,DB value,2,0.050,0.009,,,,roots,14,1.422071429,0.574420439,0.062367131,roots,25,0.2134,0.179920353,0.042531688
+101168000,"Ginseng, dried",dry weight of roots,,1,0.000,0.870,1,None,1,spices,PROXY,1,0.000,#DIV/0!,PROXY,2,0.870,0.000,,,,no var,,,0,0,no var,,,0,0
+101190000,Horseradish,"weight of root, ground",,364,1.422,0.213,1,None,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+101251000,Parsnip,weight of roots with or without peel,,54,1.621,0.243,1.14,FICRCD,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+101314000,"Radish, roots",weight of roots,,503,1.578,0.237,1.11,FICRCD,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+101316000,"Radish, Oriental, roots",weight of roots,,7,1.806,0.271,1.27,FICRCD,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+101327000,Rutabaga,weight of roots; excluding tops,,265,1.678,0.252,1.18,FICRCD,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+101388000,"Turnip, roots",weight of roots,,59,1.749,0.498,1.23,FICRCD,1,roots,PROXY,14,1.422,0.574,DB value,2,0.405,0.078,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.341460838
+103015000,"Arrowroot, flour",dry weight of flour,,987,0.625,0.079,1,None,1,cassava,PROXY,1,0.625,#DIV/0!,PROXY,1,0.079,#DIV/0!,,,,flours,9,3.7933852,1.231261217,0.2028632,flours,9,0.43042331,0.072682317,0.013306358
+103017000,"Artichoke, Jerusalem",edible portion of tuber,,1,4.028,0.544,2.5,FICRCD,1,potato,PROXY,8,1.611,0.533,PROXY,17,0.217,0.118,,,,roots,14,1.422071429,0.574420439,0.650835755,roots,25,0.2134,0.179920353,0.183302724
+103082000,Cassava,weight of root; dry tapioca,Includes tapioca.,26995,0.625,0.079,1,None,1,,DB value,1,0.625,0.000,DB value,1,0.079,#DIV/0!,,,,roots,14,1.422071429,0.574420439,0.252457624,roots,25,0.2134,0.179920353,0.066437319
+103139000,"Dasheen, corm",weight of the corm,Includes taro.,68,1.422,0.213,1,None,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+103166000,Ginger,weight of roots; excluding peel,,4399,1.536,0.950,1.08,NNDSR28,1,roots,PROXY,14,1.422,0.574,DB value,1,0.880,#DIV/0!,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.741939599
+103167000,"Ginger, dried",dry weight of roots; excluding peel,,19546,6.513,0.977,4.58,NNDSR28,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+103296000,"Potato, chips","weight of potato from chip or stick, with or without peel",,5284,19.750,1.545,1,none,2,,DB value,1,19.750,0.000,DB value,3,1.545,0.549,,,,roots,14,1.422071429,0.574420439,7.977660925,potato,17,0.217411765,0.118184738,0.839859889
+103297000,"Potato, dry (granules/ flakes)",dry weight of granules or flakes,,2131,9.700,1.309,6.02,FICRCD,1,potato,PROXY,8,1.611,0.533,PROXY,17,0.217,0.118,,,,roots,14,1.422071429,0.574420439,0.650835755,potato,17,0.217411765,0.118184738,0.118184738
+103298000,"Potato, flour",dry weight of flour or potato starch,,27032,6.631,0.953,1,none,2,,DB value,2,6.631,0.216,DB value,2,0.953,0.028,,,,roots,14,1.422071429,0.574420439,2.678460091,potato,17,0.217411765,0.118184738,0.51778566
+103299000,"Potato, tuber, w/peel",weight of tuber;  including peel,,2630,1.611,0.217,1,none,1,,DB value,8,1.611,0.533,DB value,17,0.217,0.118,,,,DIRECT,8,,0.532794184,0.532794184,DIRECT,17,,0.118184738,0.118184738
+103300000,"Potato, tuber, w/o peel",weight of tuber;  excluding peel,,15758,2.143,0.216,1.33,FICRCD,1,potato,PROXY,8,1.611,0.533,DB value,2,0.163,0.016,,,,potato,8,1.61125,0.532794184,0.532794184,potato,17,0.217411765,0.118184738,0.088334778
+103366000,Sweet potato,"weight of roots, with or without peel; juice",,825,2.240,0.302,1.39,FICRCD,1,potato,PROXY,8,1.611,0.533,PROXY,17,0.217,0.118,,,,potato,8,1.61125,0.532794184,0.532794184,potato,17,0.217411765,0.118184738,0.118184738
+103371000,"Tanier, corm",weight of corm,Also called Cocoyam.,8,1.422,0.213,1,None,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+103387000,Turmeric,weight of roots,,7304,1.422,0.213,1,None,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+103406000,"Yam, true",weight of roots,,24,1.869,1.021,1.16,FICRCD,1,potato,PROXY,8,1.611,0.533,DB value,1,0.880,#DIV/0!,,,,roots,14,1.422071429,0.574420439,0.650835755,roots,25,0.2134,0.179920353,0.741939599
+103407000,Yam bean,weight of roots,Also called jicama.,62,1.756,0.237,1.09,FICRCD,1,potato,PROXY,8,1.611,0.533,PROXY,17,0.217,0.118,,,,roots,14,1.422071429,0.574420439,0.650835755,potato,17,0.217411765,0.118184738,0.118184738
+200051000,"Beet, garden, tops",weight of leaves,Include pumpkin leaves.,15,4.593,0.332,1.79,FICRCD,1,greens,PROXY,10,2.566,1.520,PROXY,22,0.186,0.098,,,,greens,10,2.56572747,1.519767307,1.519767307,greens,22,0.185619741,0.097833632,0.097833632
+200101000,"Chicory, tops",weight of leaves,,1557,1.215,0.064,1.146,FICRCD,1,Escarole,PROXY,3,1.060,0.286,PROXY,3,0.056,0.004,,,,greens,10,2.56572747,1.519767307,0.627873913,greens,22,0.185619741,0.097833632,0.029339941
+200140000,"Dasheen, leaves",weight of the leaves,Includes taro.,3,2.566,0.186,1,None,1,greens,PROXY,10,2.566,1.520,PROXY,22,0.186,0.098,,,,greens,10,2.56572747,1.519767307,1.519767307,greens,22,0.185619741,0.097833632,0.097833632
+301165000,"Garlic, bulb",dry weight of bulb; excluding skin (outer scales),"same as Garlic, bulb includes great headed garlic, serpent garlic, and elephant garlic.",33951,2.932,0.743,1.15,FICRCD,1,onion_bulb,PROXY,7,2.550,1.608,DB value,3,0.646,0.066,,,,onion_bulb,7,2.549678206,1.607525059,1.607525059,onion_bulb,7,0.241936889,0.155461,0.414884998
+301237000,"Onion, bulb",weight of bulb; excluding outer skin,"Includes Daylily; Fritillaria, bulb; Lily; Chinese onion, bulb.",33634,2.830,0.269,1.11,FICRCD,1,,DB value,7,2.550,1.608,DB value,7,0.242,0.155,,,,DIRECT,7,,1.607525059,1.607525059,DIRECT,7,,0.155461,0.155461
+301238000,"Onion, bulb, dried",dry weight of bulb; excluding outer skin,"Includes Daylily; Fritillaria, bulb; Lily; Chinese onion, bulb.",30475,22.152,2.102,8.688,NNDSR28,1,onion_bulb,PROXY,7,2.550,1.608,PROXY,7,0.242,0.155,,,,onion_bulb,7,2.549678206,1.607525059,1.607525059,onion_bulb,7,0.241936889,0.155461,0.155461
+301338000,"Shallot, bulb",weight of bulb; excluding skin,,6,2.896,0.275,1.136,NNDSR28,1,onion_bulb,PROXY,7,2.550,1.608,PROXY,7,0.242,0.155,,,,onion_bulb,7,2.549678206,1.607525059,1.607525059,onion_bulb,7,0.241936889,0.155461,0.155461
+302103000,"Chive, fresh leaves",weight of fresh leaves,Includes Chinese chives.,1638,1.551,0.221,1,FICRCD,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+302198000,Leek,weight of whole plant; including leaves and bulb,Includes lady leek and wild leek,67,2.550,0.069,1,none,1,onion_bulb,PROXY,7,2.550,1.608,DB value,2,0.069,0.035,,,,onion_bulb,7,2.549678206,1.607525059,1.607525059,onion_bulb,7,0.241936889,0.155461,0.04433722
+302239000,"Onion, green",weight of bulb or bulb and leaves,"Includes Elegans hosta; Fritillaria, leaves, Kurrat; Beltsville bunching onion; Macrostem onion, pearl onion, potato onion, tree onion, and, Welsh onion",2507,1.231,0.085,1.04,FICRCD,1,carrot,PROXY,5,1.184,0.638,PROXY,5,0.082,0.052,,,,roots,14,1.422071429,0.574420439,0.478174937,roots,25,0.2134,0.179920353,0.068966658
+401005000,"Amaranth, leafy",weight of leaf,"Includes Tampala, Chinese spinach, lambsquarter, and pokeweed (pokeberry).",12,2.566,0.186,1,None,1,greens,PROXY,10,2.566,1.520,PROXY,22,0.186,0.098,,,,greens,10,2.56572747,1.519767307,1.519767307,greens,22,0.185619741,0.097833632,0.097833632
+401118000,"Cilantro, leaves",weight of leaves,Includes Chinese parsley and coriander leaves.,21992,1.830,0.261,1.18,FICRCD,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+401138000,"Dandelion, leaves",weight of leaves,,5,1.060,0.056,1,None,1,Escarole,PROXY,3,1.060,0.286,PROXY,3,0.056,0.004,,,,greens,10,2.56572747,1.519767307,0.627873913,greens,22,0.185619741,0.097833632,0.029339941
+401144000,Dillweed,weight of leaves,,4937,1.551,0.221,1,None,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+401150000,Endive,weight of leaves,Includes escarole.,1566,1.230,0.065,1.16,FICRCD,1,Escarole,PROXY,3,1.060,0.286,PROXY,3,0.056,0.004,,,,greens,10,2.56572747,1.519767307,0.627873913,greens,22,0.185619741,0.097833632,0.029339941
+401204000,"Lettuce, head",weight of leaves; juice,,15121,2.084,0.158,1.05,FICRCD,1,,DB value,1,1.985,0.000,DB value,1,0.151,#DIV/0!,,,,greens,10,2.56572747,1.519767307,1.175805954,greens,22,0.185619741,0.097833632,0.079455019
+401205000,"Lettuce, leaf",weight of leaves,Includes romaine.,1626,3.994,0.229,1.26,NNDSR28,1,,DB value,6,3.170,1.442,DB value,18,0.182,0.103,,,,DIRECT,6,,1.441596337,1.441596337,DIRECT,18,,0.103413432,0.103413432
+401248000,"Parsley, leaves",weight of leaves and stems,,2940,1.628,0.232,1.05,FICRCD,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+401313000,Radicchio,weight of leaves,,1562,1.166,0.061,1.1,FICRCD,1,Escarole,PROXY,3,1.060,0.286,PROXY,3,0.056,0.004,,,,greens,10,2.56572747,1.519767307,0.627873913,greens,22,0.185619741,0.097833632,0.029339941
+401355000,Spinach,weight of leaves; juice,,2857,2.156,0.307,1.39,FICRCD,1,,DB value,3,1.551,1.546,DB value,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+401367000,Swiss chard,weight of leaves and stalks,,11,2.797,0.202,1.09,FICRCD,1,greens,PROXY,10,2.566,1.520,PROXY,22,0.186,0.098,,,,greens,10,2.56572747,1.519767307,1.519767307,greens,22,0.185619741,0.097833632,0.097833632
+402018000,Arugula,weight of leaves,,26,4.285,0.310,1.67,FICRCD,1,greens,PROXY,10,2.566,1.520,PROXY,22,0.186,0.098,,,,greens,10,2.56572747,1.519767307,1.519767307,greens,22,0.185619741,0.097833632,0.097833632
+402062000,"Broccoli, Chinese","weight of flower buds, adjoining stems and leaves",,15,4.291,0.486,1,None,1,broccoli,PROXY,13,4.291,1.864,PROXY,17,0.486,0.351,,,,broccoli,13,4.290666562,1.864138193,1.864138193,broccoli,17,0.486132362,0.351387759,0.351387759
+402070000,"Cabbage, Chinese, bok choy",weight of leaves and stems,,240,0.527,0.134,1.14,FICRCD,1,brassica_greens,PROXY,2,0.462,0.147,PROXY,2,0.118,0.002,,,,all_brassica,18,3.402437179,2.174521278,0.2954897,all_brassica,26,0.413633246,0.309047723,0.08805907
+402117000,Collards,weight of leaves,,454,0.809,0.206,1.75,FICRCD,1,brassica_greens,PROXY,2,0.462,0.147,PROXY,2,0.118,0.002,,,,all_brassica,18,3.402437179,2.174521278,0.2954897,all_brassica,26,0.413633246,0.309047723,0.08805907
+402133000,"Cress, garden",weight of leaves,,1,3.618,0.262,1.41,FICRCD,1,greens,PROXY,10,2.566,1.520,PROXY,22,0.186,0.098,,,,greens,10,2.56572747,1.519767307,1.519767307,greens,22,0.185619741,0.097833632,0.097833632
+402194000,Kale,weight of leaves,Includes mizuna.,87,0.758,0.193,1.639344262,LAFA,1,,DB value,2,0.462,0.147,DB value,2,0.118,0.002,,,,all_brassica,18,3.402437179,2.174521278,0.2954897,all_brassica,26,0.413633246,0.309047723,0.08805907
+402229000,Mustard greens,weight of leaves and stems,,105,0.499,0.127,1.08,FICRCD,1,brassica_greens,PROXY,2,0.462,0.147,PROXY,2,0.118,0.002,,,,all_brassica,18,3.402437179,2.174521278,0.2954897,all_brassica,26,0.413633246,0.309047723,0.08805907
+402389000,"Turnip, greens",weight of leaves,,183,0.660,0.168,1.428571429,LAFA,1,brassica_greens,PROXY,2,0.462,0.147,PROXY,2,0.118,0.002,,,,all_brassica,18,3.402437179,2.174521278,0.2954897,all_brassica,26,0.413633246,0.309047723,0.08805907
+402398000,Watercress,weight of leaves and stems; juice,,440,2.797,0.202,1.09,FICRCD,1,greens,PROXY,10,2.566,1.520,PROXY,22,0.186,0.098,,,,greens,10,2.56572747,1.519767307,1.519767307,greens,22,0.185619741,0.097833632,0.097833632
+500061000,Broccoli,weight of flower heads and adjoining stems,,3819,7.037,0.797,1.64,FICRCD,1,,DB value,13,4.291,1.864,DB value,17,0.486,0.351,,,,DIRECT,13,,1.864138193,1.864138193,DIRECT,17,,0.351387759,0.351387759
+500064000,Brussels sprouts,weight of leaf sprouts,,91,4.185,0.490,1.11,FICRCD,1,brassica,PROXY,16,3.770,2.015,PROXY,22,0.441,0.323,,,,brassica,16,3.769948351,2.015180178,2.015180178,brassica,22,0.441306624,0.322914255,0.322914255
+500069000,Cabbage,weight of leaves,,3033,1.375,0.219,1.25,FICRCD,1,,DB value,1,1.100,0.000,DB value,2,0.175,0.078,,,,brassica,16,3.769948351,2.015180178,0.587991662,brassica,22,0.441306624,0.322914255,0.128051544
+500071000,"Cabbage, Chinese, napa",weight of leaves,,240,0.527,0.134,1.14,FICRCD,1,brassica_greens,PROXY,2,0.462,0.147,PROXY,2,0.118,0.002,,,,all_brassica,18,3.402437179,2.174521278,0.2954897,all_brassica,26,0.413633246,0.309047723,0.08805907
+500072000,"Cabbage, Chinese, mustard",weight of leaves,,240,0.499,0.127,1.08,FICRCD,1,brassica_greens,PROXY,2,0.462,0.147,PROXY,2,0.118,0.002,,,,all_brassica,18,3.402437179,2.174521278,0.2954897,all_brassica,26,0.413633246,0.309047723,0.08805907
+500083000,Cauliflower,weight of flower heads and adjoining stems,Includes Broccoflower and green cauliflower.,1217,4.404,0.934,2.56,FICRCD,1,,DB value,2,1.720,0.398,DB value,3,0.365,0.085,,,,brassica,16,3.769948351,2.015180178,0.919540997,brassica,22,0.441306624,0.322914255,0.266955903
+600347000,"Soybean, seed",dry weight of seed or bean,,6346,2.716,1.154,1,None,1,,DB value,4,2.716,1.068,DB value,4,1.154,1.766,,,,legume_seed,19,3.189953589,1.839062478,1.565632807,legume_seed,29,0.730832198,0.903866716,1.427571576
+600348000,"Soybean, flour","dry weight of flour, soy meal, soy protein concentrate and isolate",,29542,2.963,0.406,1,FICRCD,2,soybean_meal,PROXY,1,2.963,#DIV/0!,PROXY,1,0.406,#DIV/0!,,,,flours,9,3.7933852,1.231261217,0.961845839,flours,9,0.43042331,0.072682317,0.068500725
+600349000,"Soybean, soy milk",total weight of milk,,1094,1.683,0.258,1,None,2,,DB value,2,1.683,0.113,DB value,3,0.258,0.169,,,,no var,,,0,0,no var,,,0,0
+600350000,"Soybean, oil",weight of oil,Includes lecithin.,50809,7.616,0.807,1,none,2,,DB value,2,7.616,1.603,DB value,1,0.807,#DIV/0!,,,,oils,16,11.8733252,5.663275464,3.632853787,oils,19,3.607475758,2.530618213,0.566020498
+601043000,"Bean, snap, succulent",weight of bean and pod,"Includes green bean, string bean, runner bean, and wax bean.",5924,5.786,0.754,1.14,FICRCD,1,,DB value,2,5.075,1.450,DB value,9,0.662,0.925,,,,vegetables,60,3.490753676,2.891461549,4.203724675,DIRECT,9,,0.925405061,0.925405061
+601257000,"Pea, edible podded, succulent",weight of pea and pod,,385,5.380,0.701,1.06,FICRCD,1,Bean_snap_succulent,PROXY,2,5.075,1.450,PROXY,9,0.662,0.925,,,,vegetables,60,3.490753676,2.891461549,4.203724675,vegetables,130,0.571432315,0.975672962,1.129550868
+602031000,"Bean, broad, succulent",weight of bean and pod,Also called fava bean.,6,5.075,0.662,1,None,1,Bean_snap_succulent,PROXY,2,5.075,1.450,PROXY,9,0.662,0.925,,,,vegetables,60,3.490753676,2.891461549,4.203724675,vegetables,130,0.571432315,0.975672962,1.129550868
+602033000,"Bean, cowpea, succulent",weight of bean; excluding pod,"Includes cowpea, crowder pea, blackeye pea, and southern pea.",96,5.075,0.662,1,None,1,Bean_snap_succulent,PROXY,2,5.075,1.450,PROXY,9,0.662,0.925,,,,vegetables,60,3.490753676,2.891461549,4.203724675,vegetables,130,0.571432315,0.975672962,1.129550868
+602037000,"Bean, lima, succulent",weight of bean; excluding pod,,1465,5.075,0.662,1,None,1,Bean_snap_succulent,PROXY,2,5.075,1.450,PROXY,9,0.662,0.925,,,,vegetables,60,3.490753676,2.891461549,4.203724675,vegetables,130,0.571432315,0.975672962,1.129550868
+602255000,"Pea, succulent",weight of peas,,4944,3.500,1.330,1,none,1,,DB value,1,3.500,0.000,DB value,6,1.330,1.524,,,,vegetables,60,3.490753676,2.891461549,2.899120465,DIRECT,6,,1.52354849,1.52354849
+602259000,"Pea, pigeon, succulent",weight of pea,"In U.S. presently, usually found as canned pigeon peas.",7,3.227,1.054,1,None,1,Pea_pigeon_seed,PROXY,1,3.227,#DIV/0!,PROXY,1,1.054,#DIV/0!,,,,vegetables,60,3.490753676,2.891461549,2.672823405,vegetables,130,0.571432315,0.975672962,1.799446245
+603030000,"Bean, black, seed",dry weight of bean,"Includes black turtle bean, Bayo, and brown bean.",770,4.756,0.308,1,None,1,bean_dry,PROXY,2,4.756,3.739,PROXY,9,0.308,0.195,,,,legume_seed,19,3.189953589,1.839062478,2.741799555,legume_seed,29,0.730832198,0.903866716,0.380659369
+603032000,"Bean, broad, seed",dry weight of bean,Also called fava bean.,13,4.756,1.168,1,None,1,bean_dry,PROXY,2,4.756,3.739,DB value,2,1.168,0.931,,,,legume_seed,19,3.189953589,1.839062478,2.741799555,legume_seed,29,0.730832198,0.903866716,1.4440329
+603034000,"Bean, cowpea, seed",dry weight of bean,"Includes cowpea, crowder pea, blackeye pea, and southern pea.",54,4.756,0.610,1,None,1,bean_dry,PROXY,2,4.756,3.739,DB value,1,0.610,#DIV/0!,,,,legume_seed,19,3.189953589,1.839062478,2.741799555,legume_seed,29,0.730832198,0.903866716,0.754425842
+603035000,"Bean,  great northern, seed",dry weight of bean,,1934,4.756,0.308,1,None,1,bean_dry,PROXY,2,4.756,3.739,PROXY,9,0.308,0.195,,,,legume_seed,19,3.189953589,1.839062478,2.741799555,legume_seed,29,0.730832198,0.903866716,0.380659369
+603036000,"Bean, kidney, seed",dry weight of bean,,1457,4.756,0.308,1,None,1,bean_dry,PROXY,2,4.756,3.739,PROXY,9,0.308,0.195,,,,legume_seed,19,3.189953589,1.839062478,2.741799555,legume_seed,29,0.730832198,0.903866716,0.380659369
+603038000,"Bean, lima, seed",dry weight of bean,,278,4.756,0.308,1,None,1,bean_dry,PROXY,2,4.756,3.739,PROXY,9,0.308,0.195,,,,legume_seed,19,3.189953589,1.839062478,2.741799555,legume_seed,29,0.730832198,0.903866716,0.380659369
+603039000,"Bean, mung, seed",dry weight of bean,Bean sprouts are the human food item.,1452,1.320,1.880,1,None,1,lentil_seed,PROXY,2,1.320,0.116,PROXY,2,1.880,2.060,,,,legume_seed,19,3.189953589,1.839062478,0.761261874,legume_seed,29,0.730832198,0.903866716,2.325548578
+603040000,"Bean, navy, seed",dry weight of bean,Includes pea bean.,1997,4.756,0.308,1,None,1,bean_dry,PROXY,2,4.756,3.739,PROXY,9,0.308,0.195,,,,legume_seed,19,3.189953589,1.839062478,2.741799555,legume_seed,29,0.730832198,0.903866716,0.380659369
+603041000,"Bean, pink, seed",dry weight of bean,,45,4.756,0.308,1,None,1,bean_dry,PROXY,2,4.756,3.739,PROXY,9,0.308,0.195,,,,legume_seed,19,3.189953589,1.839062478,2.741799555,legume_seed,29,0.730832198,0.903866716,0.380659369
+603042000,"Bean, pinto, seed",dry weight of bean,Include calico and red Mexican bean.,4336,4.756,0.308,1,None,1,bean_dry,PROXY,2,4.756,3.739,PROXY,9,0.308,0.195,,,,legume_seed,19,3.189953589,1.839062478,2.741799555,legume_seed,29,0.730832198,0.903866716,0.380659369
+603098000,"Chickpea, seed",dry weight of bean,Also called garbanzo bean.,358,1.543,0.491,1,None,1,,DB value,1,1.543,0.000,DB value,1,0.491,#DIV/0!,,,,legume_seed,19,3.189953589,1.839062478,0.889681036,legume_seed,29,0.730832198,0.903866716,0.60774567
+603182000,"Guar, seed",weight of bean,,18678,1.320,1.400,1,None,1,lentil_seed,PROXY,2,1.320,0.116,DB value,1,1.400,#DIV/0!,,,,legume_seed,19,3.189953589,1.839062478,0.761261874,legume_seed,29,0.730832198,0.903866716,1.731469146
+603203000,"Lentil, seed",dry weight of edible seed,,256,1.320,1.880,1,None,1,,DB value,2,1.320,0.116,DB value,2,1.880,2.060,,,,legume_seed,19,3.189953589,1.839062478,0.761261874,legume_seed,29,0.730832198,0.903866716,2.325548578
+603256000,"Pea, dry",dry weight of pea,,135,3.647,0.617,1,None,1,,DB value,9,3.647,1.805,DB value,9,0.617,0.555,,,,DIRECT,9,,1.805317848,1.805317848,DIRECT,9,,0.555255541,0.555255541
+603258000,"Pea, pigeon, seed",dry weight of pea,,22,3.227,1.054,1,None,1,,DB value,1,3.227,0.000,DB value,1,1.054,#DIV/0!,,,,legume_seed,19,3.189953589,1.839062478,1.86030506,legume_seed,29,0.730832198,0.903866716,1.303425238
+801374000,Tomatillo,weight of fruit; excluding outer husks,,644,2.629,0.470,1.1,tomato,1,tomato,PROXY,7,2.390,1.151,PROXY,25,0.428,1.081,,,,tomato,7,2.390257143,1.150792966,1.150792966,tomato,25,0.427612571,1.081021834,1.081021834
+801375000,Tomato,"weight of pulp, seeds and skin; tomatoes without skin but with seed (example canned whole tomatoes)",,23505,2.629,0.470,1.1,FICRCD,1,,DB value,7,2.390,1.151,DB value,25,0.428,1.081,,,,DIRECT,7,,1.150792966,1.150792966,DIRECT,25,,1.081021834,1.081021834
+801376000,"Tomato, paste",weight of concentrated tomato pulp from food described as paste; excluding seeds and skin,,7988,1.438,0.118,1,none,2,,DB value,1,1.438,0.000,DB value,1,0.118,#DIV/0!,,,,processed_tomato,10,8.7758182,4.719276454,0.773190093,processed_tomato,12,0.974454762,0.800827426,0.097303611
+801377000,"Tomato, puree",weight of concentrated tomato pulp (from food described as puree or sauce); excluding seeds and skin,,19602,10.581,1.147,1,none,2,,DB value,8,10.581,3.163,DB value,10,1.147,0.764,,,,DIRECT,8,,3.163086843,3.163086843,DIRECT,10,,0.764345906,0.764345906
+801378000,"Tomato, dried",weight of dried tomato (may include skin and/or seeds),,1281,40.826,7.304,17.08,FICRCD,1,tomato,PROXY,7,2.390,1.151,PROXY,25,0.428,1.081,,,,tomato,7,2.390257143,1.150792966,1.150792966,tomato,25,0.427612571,1.081021834,1.081021834
+801379000,"Tomato, juice",weight of juice at single strength (or standard dilution),,1025,2.556,0.153,1.53,FICRCD,2,,DB value,1,1.671,0.000,DB value,1,0.100,#DIV/0!,,,,processed_tomato,10,8.7758182,4.719276454,0.898326645,processed_tomato,12,0.974454762,0.800827426,0.082346468
+802148000,Eggplant,"weight of whole vegetable; including seeds, with or without peel",,180,2.940,0.526,1.23,FICRCD,1,nightshades,PROXY,7,2.390,1.151,PROXY,25,0.428,1.081,,,,nightshades,7,2.390257143,1.150792966,1.150792966,nightshades,25,0.427612571,1.081021834,1.081021834
+802234000,Okra,weight of pods; including seeds,,271,2.773,0.496,1.16,FICRCD,1,nightshades,PROXY,7,2.390,1.151,PROXY,25,0.428,1.081,,,,nightshades,7,2.390257143,1.150792966,1.150792966,nightshades,25,0.427612571,1.081021834,1.081021834
+802270000,"Pepper, bell",weight of flesh; excluding seeds and stem,"Includes sweet pepper, cooking pepper, pimento, and banana pepper.",8602,6.881,0.525,1.22,FICRCD,1,,DB value,1,5.640,0.000,DB value,2,0.430,0.226,,,,nightshades,7,2.390257143,1.150792966,2.715386646,nightshades,25,0.427612571,1.081021834,1.087057349
+802271000,"Pepper, bell, dried",dry weight of flesh only,"Includes sweet pepper, cooking pepper, pimento, and banana pepper.",5298,68.797,5.245,12.198,NNDSR28,1,pepper_bell,PROXY,1,5.640,#DIV/0!,PROXY,2,0.430,0.226,,,,nightshades,7,2.390257143,1.150792966,2.715386646,nightshades,25,0.427612571,1.081021834,1.087057349
+802272000,"Pepper, nonbell","weight of flesh, with or without seeds; excluding stem",,26399,6.824,0.799,1.21,FICRCD,1,pepper_bell,PROXY,1,5.640,#DIV/0!,DB value,1,0.660,#DIV/0!,,,,nightshades,7,2.390257143,1.150792966,2.715386646,nightshades,25,0.427612571,1.081021834,1.668506629
+802273000,"Pepper, nonbell, dried",dry weight of flesh or flesh and seeds,,12647,57.218,4.362,10.145,NNDSR28,1,pepper_bell,PROXY,1,5.640,#DIV/0!,PROXY,2,0.430,0.226,,,,nightshades,7,2.390257143,1.150792966,2.715386646,nightshades,25,0.427612571,1.081021834,1.087057349
+901075000,Cantaloupe,weight of pulp; excluding seeds and outer rind,"Includes casaba, muskmelon, and wintermelon.",1292,2.862,0.490,1.96,FICRCD,1,melon,PROXY,1,1.460,#DIV/0!,DB value,1,0.250,#DIV/0!,,,,cucurbits,4,1.295,0.495681349,0.55883766,cucurbits,21,0.348494762,0.480666129,0.344815892
+901187000,Honeydew melon,weight of pulp; excluding seeds and rind,,171,3.168,0.284,2.17,FICRCD,1,,DB value,1,1.460,0.000,DB value,1,0.131,#DIV/0!,,,,cucurbits,4,1.295,0.495681349,0.55883766,cucurbits,21,0.348494762,0.480666129,0.180683528
+901399000,Watermelon,weight of pulp and rind; excluding seeds,To include weight of pickled watermelon rind.,1250,2.803,1.946,1.92,FICRCD,1,melon,PROXY,1,1.460,#DIV/0!,DB value,3,1.013,0.548,,,,cucurbits,4,1.295,0.495681349,0.55883766,cucurbits,21,0.348494762,0.480666129,1.39765375
+901400000,"Watermelon, juice",weight of juice at single strength (or standard dilution),,19,8.085,2.293,1.92,FICRCD,1,melon,PROXY,1,1.460,#DIV/0!,PROXY,5,0.684,0.596,5.282,0.979,,cucurbits,4,1.295,0.495681349,0.55883766,cucurbits,21,0.348494762,0.480666129,0.943692134
+902021000,Balsam pear,weight of whole fruit,"Includes Balsam apple, Chinese cucumber, and Bittermelon.",3,0.840,0.397,1,None,1,cucumber,PROXY,1,0.840,#DIV/0!,PROXY,4,0.397,0.569,,,,cucurbits,4,1.295,0.495681349,0.321523037,cucurbits,21,0.348494762,0.480666129,0.548046931
+902088000,"Chayote, fruit",weight of fruit,"Also called Christophine, and Mirliton.",38,0.840,0.397,1,None,1,cucumber,PROXY,1,0.840,#DIV/0!,PROXY,4,0.397,0.569,,,,cucurbits,4,1.295,0.495681349,0.321523037,cucurbits,21,0.348494762,0.480666129,0.548046931
+902102000,Chinese waxgourd,weight of flesh; including or excluding peel,Includes Togan and wintermelon.,2,2.045,0.147,1.42,FICRCD,1,squash,PROXY,2,1.440,0.679,PROXY,11,0.103,0.179,,,,cucurbits,4,1.295,0.495681349,0.55118235,cucurbits,21,0.348494762,0.480666129,0.142691086
+902135000,Cucumber,weight of flesh and seeds; including or excluding peel,,9894,0.865,0.409,1.03,FICRCD,1,,DB value,1,0.840,0.000,DB value,4,0.397,0.569,,,,cucurbits,4,1.295,0.495681349,0.321523037,cucurbits,21,0.348494762,0.480666129,0.548046931
+902308000,Pumpkin,weight of pulp; excluding seeds and rind,,367,2.746,0.218,1.43,FICRCD,1,,DB value,1,1.920,0.000,DB value,6,0.153,0.239,,,,cucurbits,4,1.295,0.495681349,0.7349098,DIRECT,6,,0.238902775,0.238902775
+902309000,"Pumpkin, seed",weight of dried seed only,,231,1.440,0.103,1,None,1,squash,PROXY,2,1.440,0.679,PROXY,11,0.103,0.179,,,,cucurbits,4,1.295,0.495681349,0.55118235,cucurbits,21,0.348494762,0.480666129,0.142691086
+902356000,"Squash, summer","weight of flesh, seeds and peel","Includes crookneck squash, kampyo,  scallop squash, straightneck squash, vegetable marrow, and zucchini.",1642,0.193,1.229,1.05,FICRCD,1,zucchini,PROXY,1,0.184,#DIV/0!,DB value,1,1.170,#DIV/0!,,,,cucurbits,4,1.295,0.495681349,0.070490098,cucurbits,21,0.348494762,0.480666129,1.613738375
+902357000,"Squash, winter",weight of flesh; excluding seeds and peel,"Includes butternut squash, hubbard squash, calabaza, acorn squash, and spaghetti squash.",392,1.354,0.063,1.41,FICRCD,1,,DB value,1,0.960,0.000,DB value,5,0.045,0.028,,,,cucurbits,4,1.295,0.495681349,0.3674549,DIRECT,5,,0.027660351,0.027660351
+1001106000,Citron,weight of pulp; excluding peel,,37,5.277,0.593,2,grapefruit,1,citrus,PROXY,6,2.638,0.646,PROXY,23,0.297,0.211,,,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.210939689
+1001107000,Citrus hybrids,weight of pulp; excluding seeds and peel,"Includes tangelo, Tangor, Chironja, and Calamondin.",20,3.562,0.400,1.35,tangelo,1,citrus,PROXY,6,2.638,0.646,PROXY,23,0.297,0.211,,,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.210939689
+1001240000,Orange,weight of pulp; excluding seeds and peel,,3262,3.726,0.294,1.37,FICRCD,1,,DB value,4,2.720,0.758,DB value,13,0.214,0.084,,,,citrus,6,2.638333333,0.645582424,0.665565709,DIRECT,13,,0.08445428,0.08445428
+1001241000,"Orange, juice",weight of juice at single strength (or standard dilution),,18007,5.573,0.509,1,none,2,,DB value,2,5.573,3.999,DB value,5,0.509,0.272,,,,citrus,6,2.638333333,0.645582424,1.363581294,DIRECT,5,,0.272452481,0.272452481
+1001242000,"Orange, peel",weight of peel only,,202,2.720,0.214,1,None,1,orange,PROXY,4,2.720,0.758,PROXY,13,0.214,0.084,,,,citrus,6,2.638333333,0.645582424,0.665565709,orange,13,0.214358776,0.08445428,0.08445428
+1001369000,Tangerine,weight of pulp; excluding seeds and peel,Include clementine and mandarin.,720,3.562,0.400,1.35,FICRCD,1,citrus,PROXY,6,2.638,0.646,PROXY,23,0.297,0.211,,,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.210939689
+1001370000,"Tangerine, juice",weight of juice at single strength (or standard dilution),Include+G148 clementine and mandarin.,6891,10.559,1.572,2,FICRCD,1,citrus,PROXY,6,2.638,0.646,PROXY,23,0.297,0.211,5.282,0.979,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.210939689
+1002197000,Kumquat,weight of fruit; including peel; excluding seeds,,1,2.849,0.320,1.08,FICRCD,1,citrus,PROXY,6,2.638,0.646,PROXY,23,0.297,0.211,,,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.210939689
+1002199000,Lemon,weight of pulp; excluding seeds and peel,,2076,4.678,0.422,1.89,FICRCD,1,,DB value,2,2.475,0.530,DB value,3,0.223,0.251,,,,citrus,6,2.638333333,0.645582424,0.605615856,citrus,23,0.296507134,0.210939689,0.158882733
+1002200000,"Lemon, juice",weight of juice at single strength (or standard dilution),,21356,6.000,0.332,1,none,2,,DB value,1,6.000,0.000,DB value,1,0.332,#DIV/0!,,,,citrus,6,2.638333333,0.645582424,1.468159651,citrus,23,0.296507134,0.210939689,0.235905288
+1002201000,"Lemon, peel",weight of peel only,,770,2.638,0.297,1,None,1,citrus,PROXY,6,2.638,0.646,PROXY,23,0.297,0.211,,,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.210939689
+1002206000,Lime,weight of pulp; excluding seeds and peel,"Australian desert lime, Australian finger lime, Australian round lime, Brown River finger lime, Mount White lime, New Guinea wild lime, Russell River lime, Sweet lime, Tahiti Lime.",34,3.166,0.612,1.2,FICRCD,1,citrus,PROXY,6,2.638,0.646,DB value,1,0.510,#DIV/0!,,,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.362821764
+1002207000,"Lime, juice",weight of juice at single strength (or standard dilution),"Australian desert lime, Australian finger lime, Australian round lime, Brown River finger lime, Kumquat, Lemon, Lime, Mount White lime, New Guinea wild lime, Russell River lime, Sweet lime, Tahiti Lime",7724,13.857,1.943,3.25,FICRCD,1,citrus,PROXY,6,2.638,0.646,PROXY,23,0.297,0.211,5.282,0.979,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.210939689
+1003180000,Grapefruit,weight of pulp; excluding seeds and rind,Includes Uniq fruit,618,5.277,1.210,2,FICRCD,1,citrus,PROXY,6,2.638,0.646,DB value,2,0.605,0.134,,,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.430406211
+1003181000,"Grapefruit, juice",weight of juice at single strength (or standard dilution),,7511,11.218,1.646,2.25,FICRCD,1,citrus,PROXY,6,2.638,0.646,PROXY,23,0.297,0.211,5.282,0.979,,citrus,6,2.638333333,0.645582424,0.645582424,citrus,23,0.296507134,0.210939689,0.210939689
+1100007000,"Apple, fruit with peel","weight of apple; including peel, excluding core and stem",,6912,1.595,0.228,1.11,LAFA,1,,DB value,18,1.437,1.348,DB value,36,0.206,0.216,,,,DIRECT,18,,1.347966246,1.347966246,DIRECT,36,,0.216085896,0.216085896
+1100008000,"Apple, peeled fruit","weight of apple; excluding peel, core and stem",,1123,1.868,0.267,1.3,NNDSR28,1,apple,PROXY,18,1.437,1.348,PROXY,36,0.206,0.216,,,,apple,18,1.437166667,1.347966246,1.347966246,apple,36,0.205764321,0.216085896,0.216085896
+1100009000,"Apple, dried","dry weight; excluding peel, core, stem",,2932,8.839,1.265,6.15,FICRCD,1,apple,PROXY,18,1.437,1.348,PROXY,36,0.206,0.216,,,,apple,18,1.437166667,1.347966246,1.347966246,apple,36,0.205764321,0.216085896,0.216085896
+1100010000,"Apple, juice",weight of juice at single strength (or standard dilution),,14568,7.438,1.288,1.5,FICRCD,1,apple,PROXY,18,1.437,1.348,PROXY,36,0.206,0.216,5.282,0.979,,apple,18,1.437166667,1.347966246,1.347966246,apple,36,0.205764321,0.216085896,0.216085896
+1100011000,"Apple, sauce",weight of applesauce,,1353,2.012,0.288,1.4,FICRCD,1,apple,PROXY,18,1.437,1.348,PROXY,36,0.206,0.216,,,,apple,18,1.437166667,1.347966246,1.347966246,apple,36,0.205764321,0.216085896,0.216085896
+1100266000,Pear,"weight of pulp, with or without peel; excluding core and stem",Include Asian (Oriental) pear.,3209,2.922,0.249,1.11,FICRCD,1,,DB value,5,2.632,2.009,DB value,7,0.224,0.130,,,,DIRECT,5,,2.009110375,2.009110375,DIRECT,7,,0.130234703,0.130234703
+1100267000,"Pear, dried","weight of dried pulp, with or without peel",Include Asian (Oriental) pear.,142,13.160,1.121,5,FICRCD,1,pear,PROXY,5,2.632,2.009,PROXY,7,0.224,0.130,,,,pear,5,2.632,2.009110375,2.009110375,pear,7,0.224142177,0.130234703,0.130234703
+1100268000,"Pear, juice",weight of juice at single strength (or standard dilution),Include Asian (Oriental) pear.,6975,9.230,1.315,1.5,"apple, juice",1,pear,PROXY,5,2.632,2.009,PROXY,7,0.224,0.130,5.282,0.979,,pear,5,2.632,2.009110375,2.009110375,pear,7,0.224142177,0.130234703,0.130234703
+1201090000,Cherry,weight of fruit; including skin; excluding pit and stem,Includes sweet cherry and sour or tart cherry.,11075,4.360,0.510,1.09,FICRCD,1,tree_fruit,DB value,2,4.000,1.414,DB value,5,0.468,0.243,,,,tree_fruit,30,2.031966667,1.778072838,3.500200799,DIRECT,5,,0.243248844,0.243248844
+1201091000,"Cherry, juice",weight of juice at single strength (or standard dilution),Includes sweet cherry and sour or tart cherry.,6943,10.482,1.587,1.3,"blackberry, juice",1,cherry,PROXY,2,4.000,1.414,PROXY,5,0.468,0.243,5.282,0.979,,tree_fruit,30,2.031966667,1.778072838,3.500200799,cherry,5,0.468,0.243248844,0.243248844
+1202012000,Apricot,"weight of pulp, with or without peel; excluding pit",Includes Japanese apricot.,1271,2.195,0.464,1.08,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,DB value,1,0.430,#DIV/0!,,,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.374310366
+1202013000,"Apricot, dried","dry weight of pulp, with or without peel; excluding pit",Includes Japanese apricot.,178,11.095,1.408,5.46,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,PROXY,59,0.258,0.225,,,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.224519986
+1202014000,"Apricot, juice",weight of juice at single strength (or standard dilution),Includes Japanese apricot.,6127,8.594,1.399,1.63,"plum, juice",1,tree_fruit,PROXY,30,2.032,1.778,PROXY,59,0.258,0.225,5.282,0.979,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.224519986
+1202230000,Nectarine,weight of pulp; including peel; excluding pit and stem,,233,2.235,0.284,1.1,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,PROXY,59,0.258,0.225,,,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.224519986
+1202260000,Peach,"weight of pulp, with or without peel; excluding pit",,16920,2.897,0.274,1.04,FICRCD,1,,DB value,5,2.786,2.444,DB value,7,0.263,0.170,,,,DIRECT,5,,2.443968085,2.443968085,DIRECT,7,,0.17039464,0.17039464
+1202261000,"Peach, dried","weight of dried pulp, with or without peel; excluding pit",,1722,17.775,1.678,6.38,FICRCD,1,peach,PROXY,5,2.786,2.444,PROXY,7,0.263,0.170,,,,peach,5,2.786,2.443968085,2.443968085,peach,7,0.263,0.17039464,0.17039464
+1202262000,"Peach, juice",weight of juice at single strength (or standard dilution),,78,9.823,1.408,1.63,"plum, juice",1,peach,PROXY,5,2.786,2.444,PROXY,7,0.263,0.170,5.282,0.979,,peach,5,2.786,2.443968085,2.443968085,peach,7,0.263,0.17039464,0.17039464
+1203285000,Plum,weight of pulp with peel; excluding pit,Includes American plum; Klamath plum; Beach plum; Canada plum; Cherry plum; Chickasaw plum; Damson plum; Japanese plum; Plumcot; and Sloe.,417,2.154,0.576,1.06,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,DB value,3,0.543,0.297,,,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.472965811
+1203286000,"Plum, prune, fresh","weight of plum, with peel; excluding pit",,50,2.154,0.273,1.06,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,PROXY,59,0.258,0.225,,,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.224519986
+1203287000,"Plum, prune, dried","weight of dried flesh, with or without peel; excluding pit",,260,11.643,1.478,5.73,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,PROXY,59,0.258,0.225,,,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.224519986
+1203288000,"Plum, prune, juice",weight of juice at single strength (or standard dilution),,125,8.594,1.399,1.63,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,PROXY,59,0.258,0.225,5.282,0.979,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.224519986
+1301055000,Blackberry,weight of berry,"Includes Andean blackberry, Arctic blackberry, bingleberry, black satin berry, boysenberry, brombeere, California blackberry, Cherokee blackberry, chesterberry, Cheyenne blackberry, common blackberry, coryberry, darrowberry, dewberry, dirksen thornless be",7185,6.475,0.599,1.04,FICRCD,1,berry,PROXY,9,6.226,3.458,PROXY,19,0.576,0.403,,,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.40302432
+1301056000,"Blackberry, juice",weight of juice at single strength (or standard dilution),"Includes Andean blackberry, Arctic blackberry, bingleberry, black satin berry, boysenberry, brombeere, California blackberry, Cherokee blackberry, chesterberry, Cheyenne blackberry, common blackberry, coryberry, darrowberry, dewberry, dirksen thornless be",10,13.375,1.728,1.3,FICRCD,1,berry,PROXY,9,6.226,3.458,PROXY,19,0.576,0.403,5.282,0.979,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.40302432
+1301058000,Boysenberry,weight of berry,,6145,6.475,0.599,1.04,FICRCD,1,berry,PROXY,9,6.226,3.458,PROXY,19,0.576,0.403,,,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.40302432
+1301320000,Raspberry,weight of berry,"Includes black raspberry, red raspberry, bababerry, blackcap, framboise, frambueso, himbeere, keriberry, mayberry, thimbleberry, tulameen, yellow raspberry.",11006,5.328,0.237,1.04,FICRCD,1,,DB value,2,5.123,1.803,DB value,2,0.227,0.050,,,,berry,9,6.225615848,3.458108076,2.845424605,berry,19,0.575970011,0.40302432,0.159173689
+1301321000,"Raspberry, juice",weight of juice at single strength (or standard dilution),"Includes black raspberry, red raspberry, bababerry, blackcap, framboise, frambueso, himbeere, keriberry, mayberry, thimbleberry, tulameen, yellow raspberry.",6120,11.508,1.555,1,None,1,berry,PROXY,9,6.226,3.458,PROXY,19,0.576,0.403,5.282,0.979,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.40302432
+1302057000,Blueberry,weight of berry,Includes highbush blueberry and lowbush blueberry.,16469,3.510,0.496,1.05,FICRCD,1,,DB value,2,3.343,0.157,DB value,4,0.472,0.353,,,,berry,9,6.225615848,3.458108076,1.85673239,berry,19,0.575970011,0.40302432,0.330531031
+1302137000,"Currant, dried",dry weight of berry,Includes red and black currants.,17,28.264,0.684,1,none,1,grape_raisin,PROXY,1,28.264,#DIV/0!,PROXY,2,0.684,0.023,,,,berry,9,6.225615848,3.458108076,15.69981067,berry,19,0.575970011,0.40302432,0.478266433
+1302174000,Gooseberry,weight of berry,,15,6.226,0.840,1,None,1,berry,PROXY,9,6.226,3.458,DB value,1,0.840,#DIV/0!,,,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.587774402
+1302191000,Huckleberry,weight of berry,,36,6.537,0.605,1.05,FICRCD,1,berry,PROXY,9,6.226,3.458,PROXY,19,0.576,0.403,,,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.40302432
+1303227000,Mulberry,weight of fruit,Includes Juneberry.,1,6.475,0.599,1.04,FICRCD,1,berry,PROXY,9,6.226,3.458,PROXY,19,0.576,0.403,,,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.40302432
+1304175000,Grape,"weight of grape, with skin, and with or without seeds",Includes Muscadine.,5959,2.810,0.478,1.04,FICRCD,1,,DB value,1,2.702,0.000,DB value,3,0.459,0.273,,,,berry,9,6.225615848,3.458108076,1.50090092,berry,19,0.575970011,0.40302432,0.321484609
+1304176000,"Grape, juice",weight of juice at single strength (or standard dilution),Includes hardy kiwifruit,12486,8.795,1.576,1.3,FICRCD,1,Grape,PROXY,1,2.702,#DIV/0!,PROXY,3,0.459,0.273,5.282,0.979,,berry,9,6.225615848,3.458108076,1.50090092,berry,19,0.575970011,0.40302432,0.321484609
+1304178000,"Grape, raisin",dry weight of raisin,Includes Zante currant.,8179,28.264,0.684,1,none,1,,DB value,1,28.264,0.000,DB value,2,0.684,0.023,,,,berry,9,6.225615848,3.458108076,15.69981067,berry,19,0.575970011,0.40302432,0.478266433
+1304179000,"Grape, wine and sherry",weight of wine or sherry,,6014,7.674,0.780,1,None,2,beer,PROXY,3,7.674,0.533,DB value,44,0.780,0.792,,,,no var,,,0,0,DIRECT,44,,0.791686035,0.791686035
+1304195000,"Kiwifruit, fuzzy",weight of pulp and peel.,,169,6.310,0.264,1.16,FICRCD,1,,DB value,1,5.440,0.000,DB value,5,0.227,0.121,,,,berry,9,6.225615848,3.458108076,3.021732093,DIRECT,5,,0.121479795,0.121479795
+1307130000,Cranberry,weight of berry,,174,6.350,1.418,1.02,FICRCD,1,berry,PROXY,9,6.226,3.458,DB value,1,1.390,#DIV/0!,,,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.97262669
+1307131000,"Cranberry, dried",dry weight of berry,,813,41.345,3.825,6.641167192,NNDSR28,1,berry,PROXY,9,6.226,3.458,PROXY,19,0.576,0.403,,,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.40302432
+1307132000,"Cranberry, juice",weight of juice at single strength (or standard dilution),,7477,13.375,1.728,1.3,FICRCD,1,berry,PROXY,9,6.226,3.458,PROXY,19,0.576,0.403,5.282,0.979,,berry,9,6.225615848,3.458108076,3.458108076,berry,19,0.575970011,0.40302432,0.40302432
+1307359000,Strawberry,weight of berry; excluding leaf cap,,12636,8.289,0.614,1.06,FICRCD,1,,DB value,5,7.820,3.893,DB value,11,0.579,0.391,,,,berry,9,6.225615848,3.458108076,4.343731739,DIRECT,11,,0.390963681,0.390963681
+1307360000,"Strawberry, juice",weight of juice at single strength (or standard dilution),,9565,15.448,1.732,1.3,FICRCD,1,strawberry,PROXY,5,7.820,3.893,PROXY,11,0.579,0.391,5.282,0.979,,berry,9,6.225615848,3.458108076,4.343731739,strawberry,11,0.579,0.390963681,0.390963681
+1400003000,Almond,weight of nutmeat,,6948,23.200,2.272,1,FICRCD,1,,DB value,2,23.200,1.131,DB value,8,2.272,1.171,,,,nut,6,13.96972222,12.17450929,20.2186279,DIRECT,8,,1.171469654,1.171469654
+1400004000,"Almond, oil",weight of oil,,51,23.200,2.272,1,FICRCD,1,almond,PROXY,2,23.200,1.131,PROXY,8,2.272,1.171,,,,nut,6,13.96972222,12.17450929,20.2186279,almond,8,2.27203125,1.171469654,1.171469654
+1400059000,Brazil nut,weight of nutmeat,,64,13.970,2.057,1,FICRCD,1,nut,PROXY,6,13.970,12.175,PROXY,23,2.057,1.873,,,,nut,6,13.96972222,12.17450929,12.17450929,nut,23,2.056962862,1.873156253,1.873156253
+1400068000,Butternut,weight of nutmeat,,9,13.970,2.057,1,None,1,nut,PROXY,6,13.970,12.175,PROXY,23,2.057,1.873,,,,nut,6,13.96972222,12.17450929,12.17450929,nut,23,2.056962862,1.873156253,1.873156253
+1400081000,Cashew,weight of nutmeat,,2217,13.970,4.999,1,none,1,nut,PROXY,6,13.970,12.175,DB value,3,4.999,3.605,,,,nut,6,13.96972222,12.17450929,12.17450929,nut,23,2.056962862,1.873156253,4.55229809
+1400092000,Chestnut,weight of  nutmeat,,10,17.322,1.269,1.24,FICRCD,1,nut,PROXY,6,13.970,12.175,DB value,3,1.023,0.514,,,,nut,6,13.96972222,12.17450929,12.17450929,nut,23,2.056962862,1.873156253,0.931890054
+1400111000,"Coconut, meat",weight of meat; excluding milk and shell,"includes coconut, water",98,5.772,1.521,1.92,NNDSR28,1,,DB value,3,3.006,0.539,DB value,3,0.792,0.454,,,,nut,6,13.96972222,12.17450929,2.619803534,nut,23,2.056962862,1.873156253,0.721196644
+1400112000,"Coconut, dried",dry weight of meat; excluding milk and shell,,2027,5.501,1.449,1.829843426,NNDSR28,1,coconut_meat,PROXY,3,3.006,0.539,PROXY,3,0.792,0.454,,,,nut,6,13.96972222,12.17450929,2.619803534,nut,23,2.056962862,1.873156253,0.721196644
+1400113000,"Coconut, milk",weight of milk only; excluding meat and shell,,119,3.006,0.792,1,None,1,coconut_meat,PROXY,3,3.006,0.539,PROXY,3,0.792,0.454,,,,nut,6,13.96972222,12.17450929,2.619803534,nut,23,2.056962862,1.873156253,0.721196644
+1400114000,"Coconut, oil",weight of oil,,11877,11.900,2.729,1,FICRCD,2,,DB value,3,11.900,0.996,DB value,3,2.729,0.981,,,,nut,6,13.96972222,12.17450929,10.37072658,nut,23,2.101904638,1.181948319,1.534825194
+1400155000,Hazelnut,weight of nutmeat,Also called filbert.,1707,28.400,0.990,1,none,1,,DB value,1,28.400,0.000,DB value,2,0.990,0.665,,,,nut,6,13.96972222,12.17450929,24.75038933,nut,23,2.056962862,1.873156253,0.901535329
+1400213000,Macadamia nut,weight of nutmeat,,11,13.970,2.057,1,FICRCD,1,nut,PROXY,6,13.970,12.175,PROXY,23,2.057,1.873,,,,nut,6,13.96972222,12.17450929,12.17450929,nut,23,2.056962862,1.873156253,1.873156253
+1400269000,Pecan,weight of nutmeat,,2361,13.970,2.057,1,FICRCD,1,nut,PROXY,6,13.970,12.175,PROXY,23,2.057,1.873,,,,nut,6,13.96972222,12.17450929,12.17450929,nut,23,2.056962862,1.873156253,1.873156253
+1400278000,Pine nut,weight of nutmeat,Also called pignolia.,65,13.970,2.057,1,FICRCD,1,nut,PROXY,6,13.970,12.175,PROXY,23,2.057,1.873,,,,nut,6,13.96972222,12.17450929,12.17450929,nut,23,2.056962862,1.873156253,1.873156253
+1400282000,Pistachio,weight of nutmeat,,155,14.389,1.792,1.03,FICRCD,1,nut,PROXY,6,13.970,12.175,DB value,1,1.740,#DIV/0!,,,,nut,6,13.96972222,12.17450929,12.17450929,nut,23,2.056962862,1.873156253,1.584516639
+1400391000,Walnut,weight of nutmeat,,3274,13.970,1.657,1,FICRCD,1,nut,PROXY,6,13.970,12.175,DB value,3,1.657,1.226,,,,nut,6,13.96972222,12.17450929,12.17450929,nut,23,2.056962862,1.873156253,1.508933374
+1500025000,"Barley, pearled barley",dry weight of barley,,729,2.584,0.393,1,none,1,grains,PROXY,31,2.584,1.185,PROXY,45,0.393,0.204,,,,grains,31,2.58412131,1.18541907,1.18541907,grains,45,0.393493457,0.203614676,0.203614676
+1500026000,"Barley, flour",dry weight of flour,Includes malt and whole barley.,19689,2.374,0.358,1,none,2,wheat_flour,PROXY,3,2.374,0.148,PROXY,3,0.358,0.011,,,,flours,9,3.7933852,1.231261217,0.770661912,flours,9,0.43042331,0.072682317,0.060435763
+1500027000,"Barley, bran",dry weight of bran,,84,2.584,0.393,1,None,1,grains,PROXY,31,2.584,1.185,PROXY,45,0.393,0.204,,,,grains,31,2.58412131,1.18541907,1.18541907,grains,45,0.393493457,0.203614676,0.203614676
+1500065000,Buckwheat,dry weight of groats; whole groat flour,,277,2.584,0.393,1,None,1,grains,PROXY,31,2.584,1.185,PROXY,45,0.393,0.204,,,,grains,31,2.58412131,1.18541907,1.18541907,grains,45,0.393493457,0.203614676,0.203614676
+1500120000,"Corn, field, flour",dry weight of whole grain flour; masa harina,,16081,5.800,0.550,1,none,2,,DB value,1,5.800,0.000,DB value,1,0.550,#DIV/0!,,,,flours,9,3.7933852,1.231261217,1.882570497,flours,9,0.43042331,0.072682317,0.092874325
+1500121000,"Corn, field, meal",dry weight of whole grain or degermed meal; dry weight of corn ingredient from corn or cornmeal based chips or snacks; dry weight of hominy,Includes hominy.,12427,5.800,0.550,1,none,2,corn_flour,PROXY,1,5.800,#DIV/0!,PROXY,1,0.550,#DIV/0!,,,,flours,9,3.7933852,1.231261217,1.882570497,flours,9,0.43042331,0.072682317,0.092874325
+1500122000,"Corn, field, bran",dry weight of bran,,555,5.800,0.550,1,None,2,corn_flour,PROXY,1,5.800,#DIV/0!,PROXY,1,0.550,#DIV/0!,,,,flours,9,3.7933852,1.231261217,1.882570497,flours,9,0.43042331,0.072682317,0.092874325
+1500123000,"Corn, field, starch",dry weight of corn starch,,34670,8.800,0.760,1,none,2,,DB value,1,8.800,0.000,DB value,1,0.760,#DIV/0!,,,,no var,,,0,0,no var,,,0,0
+1500124000,"Corn, field, syrup",weight of syrup,,49699,8.800,0.760,1,none,2,corn_starch,PROXY,1,8.800,#DIV/0!,PROXY,1,0.760,#DIV/0!,,,,no var,,,0,0,no var,,,0,0
+1500125000,"Corn, field, oil",weight of oil,,45585,15.166,1.199,1,none,2,,DB value,2,15.166,0.685,DB value,2,1.199,0.065,,,,oils,16,11.8733252,5.663275464,7.233639851,oils,19,3.607475758,2.530618213,0.841318465
+1500126000,"Corn, pop",weight of kernels; excluding cob and husk,,3050,2.584,0.393,1,FICRCD,1,grains,PROXY,31,2.584,1.185,PROXY,45,0.393,0.204,,,,grains,31,2.58412131,1.18541907,1.18541907,grains,45,0.393493457,0.203614676,0.203614676
+1500127000,"Corn, sweet",weight of kernels; excluding cob and husk,,6356,6.642,0.757,2.78,FICRCD,1,,DB value,4,2.389,0.343,DB value,4,0.272,0.079,,,,vegetables,60,3.490753676,2.891461549,1.979100866,vegetables,130,0.571432315,0.975672962,0.464983936
+1500226000,"Millet, grain",dry weight of grain,,8,2.584,0.470,1,None,1,grains,PROXY,31,2.584,1.185,DB value,1,0.470,#DIV/0!,,,,grains,31,2.58412131,1.18541907,1.18541907,grains,45,0.393493457,0.203614676,0.243203276
+1500231000,"Oat, bran",dry weight of bran,,711,4.686,0.498,1,FICRCD,2,oat_flour,PROXY,2,4.686,0.231,PROXY,2,0.498,0.036,,,,flours,9,3.7933852,1.231261217,1.520922213,flours,9,0.43042331,0.072682317,0.084158492
+1500232000,"Oat, flour",dry weight of flour,,1147,4.686,0.498,1,FICRCD,2,,DB value,2,4.686,0.231,DB value,2,0.498,0.036,,,,flours,9,3.7933852,1.231261217,1.520922213,flours,9,0.43042331,0.072682317,0.084158492
+1500233000,"Oat, groats/rolled oats",dry weight,,13263,2.771,0.474,1,none,1,,DB value,3,2.771,0.198,DB value,4,0.474,0.126,,,,grains,31,2.58412131,1.18541907,1.270932226,grains,45,0.393493457,0.203614676,0.245181243
+1500323000,"Rice, white",dry weight of grain,,15650,5.839,1.541,1,None,2,,DB value,3,5.839,3.447,DB value,8,1.541,1.622,,,,grains,31,2.58412131,1.18541907,2.678609395,DIRECT,8,,1.621926989,1.621926989
+1500324000,"Rice, brown",dry weight of grain or brown rice flour,,1983,6.687,2.061,1,None,1,,DB value,6,6.687,1.782,DB value,12,2.061,1.650,,,,DIRECT,6,,1.782017583,1.782017583,DIRECT,12,,1.650151606,1.650151606
+1500325000,"Rice, flour",dry weight of flour,,27487,5.398,1.357,1,None,2,rice_bran,PROXY,1,5.398,#DIV/0!,PROXY,1,1.357,#DIV/0!,,,,flours,9,3.7933852,1.231261217,1.751926596,flours,9,0.43042331,0.072682317,0.229095631
+1500326000,"Rice, bran",dry weight of bran,,50,5.398,1.357,1,None,2,,DB value,1,5.398,0.000,DB value,1,1.357,#DIV/0!,,,,flours,9,3.7933852,1.231261217,1.751926596,flours,9,0.43042331,0.072682317,0.229095631
+1500328000,"Rye, grain",dry weight of grain; weight of whole grain flour,,2057,2.696,0.385,1,None,1,,DB value,20,2.696,1.325,DB value,20,0.385,0.183,,,,DIRECT,20,,1.324789503,1.324789503,DIRECT,20,,0.18272508,0.18272508
+1500329000,"Rye, flour",dry weight of flour,,5,3.949,0.418,1,None,2,,DB value,3,3.949,0.386,DB value,3,0.418,0.022,,,,flours,9,3.7933852,1.231261217,1.281650099,flours,9,0.43042331,0.072682317,0.070547419
+1500345000,"Sorghum, syrup",weight of syrup,,1,5.079,0.488,1,FICRCD,2,sugarcane_molasses,PROXY,1,5.079,#DIV/0!,PROXY,1,0.488,#DIV/0!,,,,sweeteners,14,8.845345584,17.46832841,10.02972678,sweeteners,13,1.061185914,1.805599706,0.829647666
+1500381000,"Triticale, flour",dry weight of flour,,259,2.374,0.358,1,None,2,wheat_flour,PROXY,3,2.374,0.148,PROXY,3,0.358,0.011,,,,flours,9,3.7933852,1.231261217,0.770661912,flours,9,0.43042331,0.072682317,0.060435763
+1500401000,"Wheat, grain",dry weight of grain,"Include whole kernel, cracked wheat, whole grain flour, bulgur, couscous.",16047,2.235,0.347,1,FICRCD,1,,DB value,8,2.235,1.029,DB value,19,0.347,0.188,,,,DIRECT,8,,1.028564733,1.028564733,DIRECT,19,,0.188089288,0.188089288
+1500402000,"Wheat, flour",dry weight of flour,,49993,2.374,0.358,1,None,2,,DB value,3,2.374,0.148,DB value,3,0.358,0.011,,,,flours,9,3.7933852,1.231261217,0.770661912,flours,9,0.43042331,0.072682317,0.060435763
+1500403000,"Wheat, germ",dry weight of germ,,2448,2.374,0.358,1,FICRCD,2,wheat_flour,PROXY,3,2.374,0.148,PROXY,3,0.358,0.011,,,,flours,9,3.7933852,1.231261217,0.770661912,flours,9,0.43042331,0.072682317,0.060435763
+1500404000,"Wheat, bran",dry weight of bran,,10250,2.374,0.358,1,FICRCD,2,wheat_flour,PROXY,3,2.374,0.148,PROXY,3,0.358,0.011,,,,flours,9,3.7933852,1.231261217,0.770661912,flours,9,0.43042331,0.072682317,0.060435763
+1500405000,Wild rice,dry weight of grain,,185,6.223,1.771,1,None,1,rice,PROXY,10,6.223,2.150,PROXY,21,1.771,1.585,,,,rice,10,6.222904,2.150052591,2.150052591,rice,21,1.771014252,1.585493678,1.585493678
+1800002000,"Alfalfa, seed",weight of dry seed,Alfalfa sprouts are the human food item.,48,8.240,6.250,1,None,1,clover_seed,PROXY,1,8.240,#DIV/0!,PROXY,1,6.250,#DIV/0!,,,,grains,31,2.58412131,1.18541907,3.779951469,grains,45,0.393493457,0.203614676,3.234086114
+1901028000,"Basil, fresh leaves",weight of leaves and stems,,94,1.551,0.221,1,None,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+1901029000,"Basil, dried leaves",dry weight of leaves and stems,,16552,17.509,2.495,11.29093199,NNDSR28,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+1901184000,"Herbs, other",weight of leaves and stems,"See Appendix B (“The Herb List”).  Note that some herbs are not included in this list as they are unique FCs and are cited in this vocabulary separately.  These latter include: basil, chive, coriander (cilantro), leaf, dill (dillweed), fennel, Florence (I",27421,1.551,0.221,1,None,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+1901220000,Marjoram,weight of leaves and stems,Includes oregano.,22047,1.551,0.221,1,None,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+1901249000,"Parsley, dried leaves",dried weight of leaves and stems,,1460,11.875,1.692,7.657445077,NNDSR28,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+1901334000,Savory,weight of leaves and flower buds,Includes summer and winter savory.,15910,1.551,0.221,1,None,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+1902105000,Cinnamon,dry weight of spice: stick or ground powder,,12421,0.000,0.870,1,None,1,spices,DB value,1,0.000,0.000,DB value,1,0.870,#DIV/0!,,,,no var,,,0,0,no var,,,0,0
+1902119000,"Coriander, seed",weight of seed,Includes Chinese parsley and cilantro seed.,19105,0.000,0.870,1,None,1,spices,PROXY,1,0.000,#DIV/0!,PROXY,2,0.870,0.000,,,,no var,,,0,0,no var,,,0,0
+1902143000,"Dill, seed",dry weight of seed,,4949,0.000,0.870,1,None,1,spices,PROXY,1,0.000,#DIV/0!,PROXY,2,0.870,0.000,,,,no var,,,0,0,no var,,,0,0
+1902274000,"Pepper, black and white",dry weight of pepper,,24206,0.000,0.870,1,None,1,spices,PROXY,1,0.000,#DIV/0!,DB value,1,0.870,#DIV/0!,,,,no var,,,0,0,no var,,,0,0
+1902354000,"Spices, other",dry weight,"See Appendix C (“The Spice List”).  Note that this list does not include some spices that are unique FCs and are listed separately in this Commodity Vocabulary.  These latter spices include: cinnamon, dill (seed), coriander (cilantro)-seed, and  black and",37630,0.000,0.870,1,None,1,spices,PROXY,1,0.000,#DIV/0!,PROXY,2,0.870,0.000,,,,no var,,,0,0,no var,,,0,0
+2001162900,"Flax, seed","N/A - Does not exist in ""commodity vocabulary"" weight basis file in current or previous release",#N/A,68,2.584,0.393,1,None,1,grains,PROXY,31,2.584,1.185,PROXY,45,0.393,0.204,,,,grains,31,2.58412131,1.18541907,1.18541907,grains,45,0.393493457,0.203614676,0.203614676
+2001163000,"Flax seed, oil",weight of oil; nutrient fat from flax seeds,Also called Solin.,176,14.641,2.334,1,none,2,oilseed_oil,PROXY,3,14.641,9.571,PROXY,4,2.334,0.362,,,,oils,16,11.8733252,5.663275464,6.983233471,oils,19,3.607475758,2.530618213,1.637284158
+2001319000,"Rapeseed, oil",weight of oil,Includes canola oil.,47225,13.328,2.275,1,FICRCD,2,,DB value,1,13.328,0.000,DB value,2,2.275,0.502,,,,oils,16,11.8733252,5.663275464,6.357089414,oils,19,3.607475758,2.530618213,1.595896084
+2001336000,"Sesame, seed",dry weight of seed,,2855,2.584,1.050,1,None,1,grains,PROXY,31,2.584,1.185,DB value,1,1.050,#DIV/0!,,,,grains,31,2.58412131,1.18541907,1.18541907,grains,45,0.393493457,0.203614676,0.543326467
+2001337000,"Sesame, oil",weight of oil,,21745,14.641,2.334,1,FICRCD,2,oilseed_oil,PROXY,3,14.641,9.571,PROXY,4,2.334,0.362,,,,oils,16,11.8733252,5.663275464,6.983233471,oils,19,3.607475758,2.530618213,1.637284158
+2002330000,"Safflower, oil",weight of oil,,45465,14.641,2.334,1,FICRCD,2,oilseed_oil,PROXY,3,14.641,9.571,PROXY,4,2.334,0.362,,,,oils,16,11.8733252,5.663275464,6.983233471,oils,19,3.607475758,2.530618213,1.637284158
+2002364000,"Sunflower, seed",dry weight of seeds,,997,6.382,0.848,1,None,1,,DB value,11,6.382,1.378,DB value,11,0.848,0.217,,,,DIRECT,11,,1.378447359,1.378447359,DIRECT,11,,0.216585945,0.216585945
+2002365000,"Sunflower, oil",weight of oil,,45494,5.794,2.646,1,none,2,oilseed_oil,DB value,1,5.794,0.000,DB value,1,2.646,#DIV/0!,,,,oils,16,11.8733252,5.663275464,2.763638982,oils,19,3.607475758,2.530618213,1.856149907
+2003128000,"Cottonseed, oil",weight of oil,,50194,24.800,2.140,1,FICRCD,2,oilseed_oil,DB value,1,24.800,0.000,DB value,1,2.140,#DIV/0!,,,,oils,16,11.8733252,5.663275464,11.82897202,oils,19,3.607475758,2.530618213,1.501194558
+2100228000,Mushroom,weight of caps or caps and stems,"Includes oyster, shiitake, and  button mushroom.                                                                                                                                          ",4128,4.987,3.093,1.03,FICRCD,1,,DB value,3,4.841,0.469,DB value,6,3.003,1.763,,,,vegetables,60,3.490753676,2.891461549,4.010179393,DIRECT,6,,1.762817863,1.762817863
+2201019000,Asparagus,weight of edible portion of spears/stems,,392,20.181,2.171,1.89,FICRCD,1,,DB value,4,10.678,4.855,DB value,7,1.149,0.791,,,,vegetables,60,3.490753676,2.891461549,8.844557135,DIRECT,7,,0.790657398,0.790657398
+2201022000,"Bamboo, shoots",weight of shoots,Bamboo shoots are the human food item.,569,10.678,1.149,1,None,1,asparagus,PROXY,4,10.678,4.855,PROXY,7,1.149,0.791,,,,vegetables,60,3.490753676,2.891461549,8.844557135,asparagus,7,1.14891,0.790657398,0.790657398
+2201073000,Cactus,weight of pulp; excluding peel; juice,"Includes Prickly pear, Cactus pads and flowers, Nopales, and Aloe vera.",195,0.874,0.413,1.04,FICRCD,1,cucumber,PROXY,1,0.840,#DIV/0!,PROXY,4,0.397,0.569,,,,vegetables,60,3.490753676,2.891461549,0.695788912,vegetables,130,0.571432315,0.975672962,0.678437676
+2201152000,"Fennel, Florence",weight of leaves,Includes Italian and sweet fennel.,2,5.881,0.331,1.12,FICRCD,1,celery,PROXY,1,5.251,#DIV/0!,PROXY,2,0.296,0.163,,,,vegetables,60,3.490753676,2.891461549,4.349593755,vegetables,130,0.571432315,0.975672962,0.504669631
+2201196000,Kohlrabi,weight of leaves and stems,,3,8.181,0.958,2.17,FICRCD,1,brassica,PROXY,16,3.770,2.015,PROXY,22,0.441,0.323,,,,brassica,16,3.769948351,2.015180178,2.015180178,brassica,22,0.441306624,0.322914255,0.322914255
+2201243000,"Palm heart, leaves",weight of stem and leaves,,3,3.395,0.534,1,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2202085000,Celery,weight of leaf stalk,,24602,5.881,0.331,1.12,FICRCD,1,,DB value,1,5.251,0.000,DB value,2,0.296,0.163,,,,vegetables,60,3.490753676,2.891461549,4.349593755,vegetables,130,0.571432315,0.975672962,0.504669631
+2202086000,"Celery, juice",weight of juice as single strength (or standard dilution),,416,31.538,2.457,5,FICRCD,1,celery,PROXY,1,5.251,#DIV/0!,PROXY,2,0.296,0.163,5.282,0.979,,vegetables,60,3.490753676,2.891461549,4.349593755,vegetables,130,0.571432315,0.975672962,0.504669631
+2202322000,Rhubarb,weight of stalks; excluding leaves,,39,14.201,1.528,1.33,FICRCD,1,asparagus,PROXY,4,10.678,4.855,PROXY,7,1.149,0.791,,,,vegetables,60,3.490753676,2.891461549,8.844557135,asparagus,7,1.14891,0.790657398,0.790657398
+2301235000,Olive,weight of fruit; excluding pit,,2722,6.637,0.482,1.163,NNDSR28,1,,DB value,4,5.707,2.505,DB value,7,0.414,0.246,,,,tropical_fruit,9,3.395412826,2.169807696,3.646686943,DIRECT,7,,0.24572274,0.24572274
+2301236000,"Olive, oil",weight of oil,,22315,15.708,3.206,1,FICRCD,2,,DB value,2,15.708,9.769,DB value,3,3.206,0.836,,,,oils,16,11.8733252,5.663275464,7.492355676,oils,19,3.607475758,2.530618213,2.248990682
+2302077000,Carob,dry weight of bean; flour,,12,3.395,0.534,1,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2302153000,Fig,weight of fruit,,13,3.429,0.540,1.01,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2302154000,"Fig, dried",dry weight of fruit,,280,11.476,1.807,3.38,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2302183000,Guava,weight of pulp; excluding peel; juice,,223,4.346,2.278,1.28,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,DB value,1,1.780,#DIV/0!,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,2.87073322
+2302368000,Tamarind,"weight of pulp, including seeds; excluding peel; juice",,3116,9.983,1.571,2.94,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2303141000,Date,"weight of fruit, excluding pit",,266,21.075,2.024,1.11,FICRCD,1,,DB value,2,18.986,1.171,DB value,4,1.824,1.494,,,,tropical_fruit,9,3.395412826,2.169807696,12.13286807,tropical_fruit,30,0.534489436,0.862009314,2.941251653
+2401211000,Lychee,weight of pulp; excluding peel,,6,5.670,0.893,1.67,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2402020000,Avocado,weight of pulp; excluding skin and pit,,1566,9.187,0.547,1.35,FICRCD,1,,DB value,2,6.805,1.690,DB value,4,0.405,0.165,,,,tropical_fruit,9,3.395412826,2.169807696,4.348673381,tropical_fruit,30,0.534489436,0.862009314,0.653172446
+2402023000,Banana,weight of pulp; excluding peel; juice,,20670,3.979,0.374,1.56,FICRCD,1,,DB value,5,2.551,0.927,DB value,19,0.240,0.068,,,,DIRECT,5,,0.927273653,0.927273653,DIRECT,19,,0.067822688,0.067822688
+2402024000,"Banana, dried",dry weight of dried pulp; excluding peel (include weight of fruit from chips),,565,15.406,1.448,6.04,FICRCD,1,banana,PROXY,5,2.551,0.927,PROXY,19,0.240,0.068,,,,banana,5,2.550647634,0.927273653,0.927273653,banana,19,0.239812123,0.067822688,0.067822688
+2402215000,Mango,weight of pulp; excluding peel,,448,4.923,0.639,1.45,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,DB value,1,0.441,#DIV/0!,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.711232219
+2402216000,"Mango, dried",weight of dried pulp,,25,17.121,2.695,5.042321644,NNDSR28,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2402217000,"Mango, juice",weight of juice at single strength (or standard dilution),,6269,11.665,1.984,1.88,pineapple,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,5.282,0.979,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2402245000,Papaya,weight of pulp; excluding peel and seeds,,266,1.980,0.216,1.49,FICRCD,1,,DB value,1,1.329,0.000,DB value,1,0.145,#DIV/0!,,,,tropical_fruit,9,3.395412826,2.169807696,0.849164333,tropical_fruit,30,0.534489436,0.862009314,0.233819608
+2402246000,"Papaya, dried",weight of dried pulp,,121,14.218,1.551,10.7,FICRCD,1,papaya,PROXY,1,1.329,#DIV/0!,PROXY,1,0.145,#DIV/0!,,,,tropical_fruit,9,3.395412826,2.169807696,0.849164333,tropical_fruit,30,0.534489436,0.862009314,0.233819608
+2402247000,"Papaya, juice",weight of juice at single strength (or standard dilution),,38,7.262,1.195,1.49,FICRCD,1,papaya,PROXY,1,1.329,#DIV/0!,PROXY,1,0.145,#DIV/0!,5.282,0.979,,tropical_fruit,9,3.395412826,2.169807696,0.849164333,tropical_fruit,30,0.534489436,0.862009314,0.233819608
+2402277000,Persimmon,"weight of entire fruit, pulp and peel",,48,2.418,0.307,1.19,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,PROXY,59,0.258,0.225,,,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.224519986
+2402283000,Plantain,weight of pulp; excluding skin,,334,3.928,2.048,1.54,FICRCD,1,banana,PROXY,5,2.551,0.927,DB value,1,1.330,#DIV/0!,,,,banana,5,2.550647634,0.927273653,0.927273653,banana,19,0.239812123,0.067822688,0.376145185
+2402284000,"Plantain, dried",weight of dried pulp only,,12,8.052,0.757,3.157,FICRCD,1,banana,PROXY,5,2.551,0.927,PROXY,19,0.240,0.068,,,,banana,5,2.550647634,0.927273653,0.927273653,banana,19,0.239812123,0.067822688,0.067822688
+2402289000,Pomegranate,weight of pulp; excluding peel and seeds,Seeds are usually not consumed.,39,3.637,0.462,1.79,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,PROXY,59,0.258,0.225,,,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.224519986
+2402290000,"Pomegranate, juice","N/A - Does not exist in ""commodity vocabulary"" weight basis file in current or previous release",#N/A,41,12.556,1.902,3.58,FICRCD,1,tree_fruit,PROXY,30,2.032,1.778,PROXY,59,0.258,0.225,5.282,0.979,,tree_fruit,30,2.031966667,1.778072838,1.778072838,tree_fruit,59,0.257923912,0.224519986,0.224519986
+2403060000,Breadfruit,weight of pulp; excluding peel,,1,4.346,0.684,1.28,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2403279000,Pineapple,weight of pulp; excluding leaves and outer peel,,2681,5.619,0.914,1.96,FICRCD,1,,DB value,1,2.867,0.000,DB value,2,0.466,0.196,,,,tropical_fruit,9,3.395412826,2.169807696,1.83191727,tropical_fruit,30,0.534489436,0.862009314,0.751771429
+2403280000,"Pineapple, dried",weight of dried pulp only,,125,27.807,4.522,9.7,FICRCD,1,pineapple,PROXY,1,2.867,#DIV/0!,PROXY,2,0.466,0.196,,,,tropical_fruit,9,3.395412826,2.169807696,1.83191727,tropical_fruit,30,0.534489436,0.862009314,0.751771429
+2403281000,"Pineapple, juice",weight of juice at single strength (or standard dilution),,8553,10.671,1.855,1.88,FICRCD,1,pineapple,PROXY,1,2.867,#DIV/0!,PROXY,2,0.466,0.196,5.282,0.979,,tropical_fruit,9,3.395412826,2.169807696,1.83191727,tropical_fruit,30,0.534489436,0.862009314,0.751771429
+2403346000,Soursop,weight of pulp; excluding peel,,4,5.059,0.796,1.49,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2405252000,Passionfruit,weight of pulp; excluding seeds and peel,,3,4.346,0.684,1.28,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,,,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+2405253000,"Passionfruit, juice",weight of juice at single strength (or standard dilution),,6353,11.665,1.984,1.88,FICRCD,1,tropical_fruit,PROXY,9,3.395,2.170,PROXY,30,0.534,0.862,5.282,0.979,,tropical_fruit,9,3.395412826,2.169807696,2.169807696,tropical_fruit,30,0.534489436,0.862009314,0.862009314
+3100044000,"Beef, meat","weight of meat; excluding the weight of bone, and all nutrient fat",Consider veal as equivalent to beef. Include bison and buffalo.,29164,67.895,33.105,1,None,1,,DB value,19,67.895,39.184,DB value,95,33.105,12.613,,,,DIRECT,19,,39.18398023,39.18398023,DIRECT,95,,12.61349997,12.61349997
+3100045000,"Beef, meat, dried","weight of dried meat; excluding bones, and trimmable fat",,414,93.695,45.685,1.38,FICRCD,1,,DB value,19,67.895,39.184,DB value,95,33.105,12.613,,,,DIRECT,19,,39.18398023,39.18398023,DIRECT,95,,12.61349997,12.61349997
+3100046000,"Beef, meat byproducts",weight of meat; excluding bone; may contain some fat,"Includes brain, heart, lung, sweetbread, tail, tripe, tongue, and head.",26546,67.895,33.105,1,None,1,,DB value,19,67.895,39.184,DB value,95,33.105,12.613,,,,DIRECT,19,,39.18398023,39.18398023,DIRECT,95,,12.61349997,12.61349997
+3100047000,"Beef, fat",weight of nutrient fat only; includes  nutrient fat from beef meat,,32127,67.895,33.105,1,None,1,,DB value,19,67.895,39.184,DB value,95,33.105,12.613,,,,DIRECT,19,,39.18398023,39.18398023,DIRECT,95,,12.61349997,12.61349997
+3100049000,"Beef, liver",weight of organ including nutrient fat,,84,67.895,33.105,1,None,1,,DB value,19,67.895,39.184,DB value,95,33.105,12.613,,,,DIRECT,19,,39.18398023,39.18398023,DIRECT,95,,12.61349997,12.61349997
+3200169000,"Goat, meat","weight of meat; excluding weight of bone, and all nutrient fat and skin",,45,33.613,34.745,1,None,1,Sheep,PROXY,6,33.613,20.560,PROXY,25,34.745,30.512,,,,Sheep,6,33.61342452,20.5604794,20.5604794,Sheep,25,34.7452695,30.51157233,30.51157233
+3200170000,"Goat, meat byproducts",weight of meat; excluding bone; may include some trimmable fat and/or skin,"Includes brain, heart, and head.",1,33.613,34.745,1,None,1,Sheep,PROXY,6,33.613,20.560,PROXY,25,34.745,30.512,,,,Sheep,6,33.61342452,20.5604794,20.5604794,Sheep,25,34.7452695,30.51157233,30.51157233
+3200171000,"Goat, fat",weight of nutrient fat only; include nutrient fat from goat meat,,45,33.613,34.745,1,None,1,Sheep,PROXY,6,33.613,20.560,PROXY,25,34.745,30.512,,,,Sheep,6,33.61342452,20.5604794,20.5604794,Sheep,25,34.7452695,30.51157233,30.51157233
+3400290000,"Pork, meat","weight of meat; excluding weight of bone, and all nutrient fat and skin",,24279,28.620,5.560,1,None,1,,DB value,17,28.620,6.891,DB value,50,5.560,1.590,,,,DIRECT,17,,6.891324829,6.891324829,DIRECT,50,,1.589608827,1.589608827
+3400291000,"Pork, skin",dry weight of skin including nutrient fat,"e.g., pork rind snacks.",10329,28.620,5.560,1,None,1,,DB value,17,28.620,6.891,DB value,50,5.560,1.590,,,,DIRECT,17,,6.891324829,6.891324829,DIRECT,50,,1.589608827,1.589608827
+3400292000,"Pork, meat byproducts",weight of meat; excluding bone; may include some trimmable fat and skin,"Includes ears, jowl, chitterlings, stomach (maw), fatback, and feet.",19329,28.620,5.560,1,None,1,,DB value,17,28.620,6.891,DB value,50,5.560,1.590,,,,DIRECT,17,,6.891324829,6.891324829,DIRECT,50,,1.589608827,1.589608827
+3400293000,"Pork, fat",weight of nutrient  fat only; includes weight of nutrient fat from meat,,27119,28.620,5.560,1,None,1,,DB value,17,28.620,6.891,DB value,50,5.560,1.590,,,,DIRECT,17,,6.891324829,6.891324829,DIRECT,50,,1.589608827,1.589608827
+3400295000,"Pork, liver",weight of organ including nutrient fat,,89,28.620,5.560,1,None,1,,DB value,17,28.620,6.891,DB value,50,5.560,1.590,,,,DIRECT,17,,6.891324829,6.891324829,DIRECT,50,,1.589608827,1.589608827
+3500339000,"Sheep, meat","weight of meat; excluding weight of bone, total nutrient fat and skin",,2660,33.613,34.745,1,None,1,,DB value,6,33.613,20.560,DB value,25,34.745,30.512,,,,DIRECT,6,,20.5604794,20.5604794,DIRECT,25,,30.51157233,30.51157233
+3500340000,"Sheep, meat byproducts",weight of meat; excluding bones; may include some trimmable fat and/or skin,Includes brain and tongue.,2176,33.613,34.745,1,None,1,,DB value,6,33.613,20.560,DB value,25,34.745,30.512,,,,DIRECT,6,,20.5604794,20.5604794,DIRECT,25,,30.51157233,30.51157233
+3500341000,"Sheep, fat",weight of nutrient fat only; includes nutrient fat from meat,,3742,33.613,34.745,1,None,1,,DB value,6,33.613,20.560,DB value,25,34.745,30.512,,,,DIRECT,6,,20.5604794,20.5604794,DIRECT,25,,30.51157233,30.51157233
+3500343000,"Sheep, liver","weight of organ, including nutrient fat",,16,33.613,34.745,1,None,1,,DB value,6,33.613,20.560,DB value,25,34.745,30.512,,,,DIRECT,6,,20.5604794,20.5604794,DIRECT,25,,30.51157233,30.51157233
+3600222000,"Milk, fat",weight of nutrient fat only,,50583,59.356,11.018,8.326394671,None,2,,DB value,4,7.129,3.435,DB value,9,1.323,0.328,,,,Fluid_Milk_Cow,41,7.128620783,3.435052073,3.435052073,DIRECT,9,,0.328204695,0.328204695
+3600223000,"Milk, nonfat solids",Remaining weight of milk after subtracting milk fat and moisture content of milk,"Includes casein; also, includes lactose added to items that are neither commercial baby foods nor infant formulas.",50712,59.356,11.018,8.326394671,None,2,,DB value,4,7.129,3.435,DB value,9,1.323,0.328,,,,Fluid_Milk_Cow,41,7.128620783,3.435052073,3.435052073,DIRECT,9,,0.328204695,0.328204695
+3600224000,"Milk, water",Moisture content of milk,,50581,0.000,0.000,0,None,2,,DB value,4,7.129,3.435,DB value,9,1.323,0.328,,,,Fluid_Milk_Cow,41,7.128620783,3.435052073,3.435052073,DIRECT,9,,0.328204695,0.328204695
+3800221000,"Meat, game","weight of meat; excluding bone, trimmable fat and skin","Includes armadillo, bear, beaver, caribou, deer, elk, frog, groundhog, moose, snake, opossum, raccoon, squirrel, turtle.",161,8.500,0.840,1,None,2,,DB value,1,8.500,0.000,DB value,1,0.840,#DIV/0!,,,,no var,,,0,0,no var,,,0,0
+3900312000,"Rabbit, meat","weight of meat; excluding bone, trimmable fat and skin",,9,55.220,4.541,1,None,1,,DB value,1,55.220,0.000,DB value,1,4.541,#DIV/0!,,,,chicken,15,27.33798485,11.44637304,23.12058342,chicken,32,4.187848389,2.300074627,2.493968994
+4000093000,"Chicken, meat","weight of flesh; excluding the weight of bone, total nutrient fat, and skin",,26566,27.338,4.188,1,None,1,,DB value,15,27.338,11.446,DB value,32,4.188,2.300,,,,DIRECT,15,,11.44637304,11.44637304,DIRECT,32,,2.300074627,2.300074627
+4000094000,"Chicken, liver",weight of organ;  including nutrient fat,,267,27.338,4.188,1,None,1,,DB value,15,27.338,11.446,DB value,32,4.188,2.300,,,,DIRECT,15,,11.44637304,11.44637304,DIRECT,32,,2.300074627,2.300074627
+4000095000,"Chicken, meat byproducts",weight of meat; excluding bone; may include some trimmable fat and/or skin,"Includes giblets (heart), necks, gizzard, feet, and tail.",13122,27.338,4.188,1,None,1,,DB value,15,27.338,11.446,DB value,32,4.188,2.300,,,,DIRECT,15,,11.44637304,11.44637304,DIRECT,32,,2.300074627,2.300074627
+4000096000,"Chicken, fat",weight of nutrient fat only; includes weight of nutrient fat from chicken meat and skin,,26710,27.338,4.188,1,None,1,,DB value,15,27.338,11.446,DB value,32,4.188,2.300,,,,DIRECT,15,,11.44637304,11.44637304,DIRECT,32,,2.300074627,2.300074627
+4000097000,"Chicken, skin",weight of skin only (0 grams nutrient fat),,12543,27.338,4.188,1,None,1,,DB value,15,27.338,11.446,DB value,32,4.188,2.300,,,,DIRECT,15,,11.44637304,11.44637304,DIRECT,32,,2.300074627,2.300074627
+5000382000,"Turkey, meat","weight of meat; excluding bone, all nutrient fat, and skin",,12047,27.338,2.571,1,None,1,chicken,PROXY,15,27.338,11.446,DB value,1,2.571,#DIV/0!,,,,chicken,15,27.33798485,11.44637304,11.44637304,chicken,32,4.187848389,2.300074627,1.412295065
+5000383000,"Turkey, liver","weight of organ, including nutrient fat",,122,27.338,2.571,1,None,1,chicken,PROXY,15,27.338,11.446,DB value,1,2.571,#DIV/0!,,,,chicken,15,27.33798485,11.44637304,11.44637304,chicken,32,4.187848389,2.300074627,1.412295065
+5000384000,"Turkey, meat byproducts",weight of meat; excluding bone (may contain some fat and/or skin),"Includes gizzard, heart, neck, and tail.",10762,27.338,2.571,1,None,1,chicken,PROXY,15,27.338,11.446,DB value,1,2.571,#DIV/0!,,,,chicken,15,27.33798485,11.44637304,11.44637304,chicken,32,4.187848389,2.300074627,1.412295065
+5000385000,"Turkey, fat",weight of nutrient  fat only; includes nutrient fat from meat and skin,,12144,27.338,2.571,1,None,1,chicken,PROXY,15,27.338,11.446,DB value,1,2.571,#DIV/0!,,,,chicken,15,27.33798485,11.44637304,11.44637304,chicken,32,4.187848389,2.300074627,1.412295065
+5000386000,"Turkey, skin",weight of skin only (0 grams nutrient fat),,7683,27.338,2.571,1,None,1,chicken,PROXY,15,27.338,11.446,DB value,1,2.571,#DIV/0!,,,,chicken,15,27.33798485,11.44637304,11.44637304,chicken,32,4.187848389,2.300074627,1.412295065
+6000301000,"Poultry, other, meat","weight of meat; excluding weight of bone, and all nutrient fat, and skin","Includes dove, duck, emu, goose, guinea hen, ostrich, partridge, pheasant, pigeon, quail, squab, wild duck.",107,24.475,2.831,1,None,1,,DB value,4,24.475,14.333,DB value,5,2.831,1.126,,,,chicken,15,27.33798485,11.44637304,10.24782453,chicken,32,4.187848389,2.300074627,1.554731662
+6000302000,"Poultry, other, liver","weight of organ, including nutrient fat","Includes dove, duck, emu, goose, guinea hen, ostrich, partridge, pheasant, pigeon, quail, squab, wild duck.",66,24.475,2.831,1,None,1,,DB value,4,24.475,14.333,DB value,5,2.831,1.126,,,,chicken,15,27.33798485,11.44637304,10.24782453,chicken,32,4.187848389,2.300074627,1.554731662
+6000303000,"Poultry, other, meat byproducts",weight of meat; excluding bone; may contain some trimmable fat and/or skin,"Includes dove, duck, emu, goose, guinea hen, ostrich, partridge, pheasant, pigeon, quail, squab, wild duck. Byproducts include (as for chicken) giblets, gizzard, neck, feet, and tail, as applicable to species of poultry.",27,24.475,2.831,1,None,1,,DB value,4,24.475,14.333,DB value,5,2.831,1.126,,,,chicken,15,27.33798485,11.44637304,10.24782453,chicken,32,4.187848389,2.300074627,1.554731662
+6000304000,"Poultry, other, fat",weight of nutrient  fat only; includes weight of nutrient fat from meat and skin,"Includes dove, duck, emu, goose, guinea hen, ostrich, partridge, pheasant, pigeon, quail, squab, wild duck.",107,24.475,2.831,1,None,1,,DB value,4,24.475,14.333,DB value,5,2.831,1.126,,,,chicken,15,27.33798485,11.44637304,10.24782453,chicken,32,4.187848389,2.300074627,1.554731662
+6000305000,"Poultry, other, skin",weight of nutrient  fat only; includes weight of nutrient fat from meat and skin,"Includes dove, duck, emu, goose, guinea hen, ostrich, partridge, pheasant, pigeon, quail, squab, wild duck.",16,24.475,2.831,1,None,1,,DB value,4,24.475,14.333,DB value,5,2.831,1.126,,,,chicken,15,27.33798485,11.44637304,10.24782453,chicken,32,4.187848389,2.300074627,1.554731662
+7000145000,"Egg, whole",weight of white and yolk; excluding shell,,33670,23.002,3.754,1.14,FICRCD,1,,DB value,10,20.177,4.159,DB value,25,3.293,1.636,,,,DIRECT,10,,4.158627044,4.158627044,DIRECT,25,,1.636091213,1.636091213
+7000146000,"Egg, white",weight of egg white,,19255,23.002,3.754,1.14,FICRCD,1,,DB value,10,20.177,4.159,DB value,25,3.293,1.636,,,,DIRECT,10,,4.158627044,4.158627044,DIRECT,25,,1.636091213,1.636091213
+7000147000,"Egg, yolk",weight of egg yolk,,17943,23.002,3.754,1.14,FICRCD,1,,DB value,10,20.177,4.159,DB value,25,3.293,1.636,,,,DIRECT,10,,4.158627044,4.158627044,DIRECT,25,,1.636091213,1.636091213
+8000157000,Fish-freshwater finfish,"weight of edible portion; excluding head, tail, scales, fins, viscera, inedible bones and skin","See Appendix A (”The Fish List”) for categorization of various fish species into appropriate FC, ie, for species that are specifically fresh water fish, salt water fish, crustacean-shellfish, and mollusc-shellfish.",1138,22.350,1.571,1,None,1,,DB value,2,22.350,0.000,DB value,2,1.571,0.000,,,,all_fish,54,172.8219767,229.3295883,29.65778078,all_fish,122,7.300980897,14.00381276,3.012908731
+8000158000,"Fish-freshwater finfish, farm raised","weight of edible portion; excluding head, tail, scales, fins, viscera, inedible bones and skin",See Appendix A.,338,157.432,5.717,1,None,1,,DB value,29,157.432,186.793,DB value,51,5.717,6.798,,,,DIRECT,29,,186.7927365,186.7927365,DIRECT,51,,6.79838801,6.79838801
+8000159000,"Fish-saltwater finfish, tuna","weight of edible portion; excluding head, tail, scales, fins, viscera, inedible bones and skin",See Appendix A.,1416,32.180,2.148,1,None,1,,DB value,12,32.180,4.938,DB value,12,2.148,0.330,,,,DIRECT,12,,4.937557826,4.937557826,DIRECT,12,,0.329539039,0.329539039
+8000160000,"Fish-saltwater finfish, other","weight of edible portion; excluding head, tail, scales, fins, viscera, inedible bones and skin",See Appendix A.,3266,130.894,3.021,1,None,1,,DB value,14,130.894,233.196,DB value,50,3.021,6.670,,,,DIRECT,14,,233.1955893,233.1955893,DIRECT,50,,6.670345129,6.670345129
+8000161000,"Fish-shellfish, crustacean","weight of edible portion; excluding shell, gills, and viscera",See Appendix A.,2372,321.071,30.658,1,None,1,,DB value,9,321.071,321.891,DB value,14,30.658,28.252,,,,DIRECT,9,,321.8907596,321.8907596,DIRECT,14,,28.25217767,28.25217767
+8000162000,"Fish-shellfish, mollusc",weight of edible portion; excluding shells,See Appendix A.,834,172.822,3.143,1,None,1,all_fish,PROXY,54,172.822,229.330,DB value,5,3.143,2.651,,,,all_fish,54,172.8219767,229.3295883,229.3295883,DIRECT,5,,2.651350124,2.651350124
+8601100000,"Water, direct, tap",0,,23667,0.007,0.000,1,None,2,,DB value,12,0.007,0.002,DB value,12,0.000,0.000,,,,DIRECT,12,,0.002042826,0.002042826,DIRECT,12,,0.000132639,0.000132639
+8601200000,"Water, direct, bottled",0,,18473,0.133,0.009,1,None,2,,DB value,24,0.133,0.062,DB value,24,0.009,0.004,,,,DIRECT,24,,0.061505961,0.061505961,DIRECT,24,,0.003680446,0.003680446
+8602000000,"Water, indirect, all sources",0,,44148,0.000,0.000,0,None,1,,PROXY,0,0.000,0.000,PROXY,0,0,0.000,,,,no var,,,,,no var,,,,
+9500006000,"Amaranth, grain",dry weight of grain; include Amaranth flour,,17,2.584,0.393,1,None,1,grains,PROXY,31,2.584,1.185,PROXY,45,0.393,0.204,,,,grains,31,2.58412131,1.18541907,1.18541907,grains,45,0.393493457,0.203614676,0.203614676
+9500016000,"Artichoke, globe",edible portion of flowerhead,,75,16.925,0.846,2.5,LAFA,1,,DB value,1,6.770,0.000,DB value,2,0.338,0.200,,,,vegetables,60,3.490753676,2.891461549,5.6077273,vegetables,130,0.571432315,0.975672962,0.577789742
+9500054000,Belgium endive,weight of leaves,Also called Witloof chicory.,1557,1.215,0.064,1.146,FICRCD,1,Escarole,PROXY,3,1.060,0.286,PROXY,3,0.056,0.004,,,,greens,10,2.56572747,1.519767307,0.627873913,greens,22,0.185619741,0.097833632,0.029339941
+9500109000,"Cocoa bean, chocolate",weight of chocolate; cocoa butter,,11588,86.122,11.250,1,None,1,,DB value,4,86.122,107.366,DB value,7,11.250,14.144,,,,choc_coffee_tea,8,71.41869641,72.49051722,87.41436601,DIRECT,7,,14.14437939,14.14437939
+9500110000,"Cocoa bean, powder",weight of powder,,16565,3.745,33.647,1,None,2,,DB value,3,3.745,0.212,DB value,3,33.647,14.544,,,,choc_coffee_tea,9,40.58585826,29.42495061,2.715402326,choc_coffee_tea,11,12.62544928,15.20329054,40.5170928
+9500115000,"Coffee, roasted bean",dry weight of bean,,15557,64.581,6.279,1,none,2,,DB value,3,64.581,17.379,DB value,3,6.279,3.886,,,,choc_coffee_tea,9,40.58585826,29.42495061,46.82139605,choc_coffee_tea,11,12.62544928,15.20329054,7.561131341
+9500116000,"Coffee, instant",dry weight of powder or granules,,9445,181.250,19.200,1,none,2,,DB value,2,181.250,8.839,DB value,2,19.200,11.102,,,,choc_coffee_tea,9,40.58585826,29.42495061,131.4071582,choc_coffee_tea,11,12.62544928,15.20329054,23.12022105
+9500177000,"Grape, leaves",weight of leaves,,5,2.566,0.186,1,None,1,greens,PROXY,10,2.566,1.520,PROXY,22,0.186,0.098,,,,greens,10,2.56572747,1.519767307,1.519767307,greens,22,0.185619741,0.097833632,0.097833632
+9500186000,Honey,weight of honey,,22697,3.450,2.440,1,FICRCD,2,,DB value,2,3.450,3.041,DB value,1,2.440,#DIV/0!,,,,sweeteners,14,8.845345584,17.46832841,6.8132706,sweeteners,13,1.061185914,1.805599706,4.151641315
+9500186100,Bee pollen,"N/A - Does not exist in ""commodity vocabulary"" weight basis file in current or previous release",#N/A,1,3.450,2.440,1,None,2,honey,PROXY,2,3.450,3.041,PROXY,1,2.440,#DIV/0!,,,,sweeteners,14,8.845345584,17.46832841,6.8132706,sweeteners,13,1.061185914,1.805599706,4.151641315
+9500188000,Hops,weight of dried hops,,3551,2.702,2.350,1,None,1,Grape,PROXY,1,2.702,#DIV/0!,DB value,1,2.350,#DIV/0!,,,,berry,9,6.225615848,3.458108076,1.50090092,berry,19,0.575970011,0.40302432,1.644368864
+9500218000,"Maple, sugar",dry weight of sugar,,1794,94.336,9.186,1.36,NNDSR28,2,Maple_syrup,PROXY,1,69.365,#DIV/0!,PROXY,1,6.754,#DIV/0!,,,,sweeteners,14,8.845345584,17.46832841,136.9853432,sweeteners,13,1.061185914,1.805599706,11.49265732
+9500219000,Maple syrup,weight of syrup,,2293,69.365,6.754,1,FICRCD,2,,DB value,1,69.365,0.000,DB value,1,6.754,#DIV/0!,,,,sweeteners,14,8.845345584,17.46832841,136.9853432,sweeteners,13,1.061185914,1.805599706,11.49265732
+9500244000,"Palm, oil",weight of oil,,3570,10.071,7.221,1,None,2,,DB value,3,10.071,0.844,DB value,4,7.221,3.068,,,,oils,16,11.8733252,5.663275464,4.803536399,oils,19,3.607475758,2.530618213,5.065192255
+9500263000,Peanut,weight of nutmeat; excluding shell,,5671,1.090,0.374,1,FICRCD,1,,DB value,1,1.090,0.000,DB value,5,0.374,0.138,,,,legume_seed,19,3.189953589,1.839062478,0.628403531,DIRECT,5,,0.137980071,0.137980071
+9500264000,"Peanut, butter",weight of ground peanuts; excluding shell,,6125,2.963,1.132,1,none,2,soybean_meal,PROXY,1,2.963,#DIV/0!,DB value,3,1.132,0.402,,,,legume_seed,19,3.189953589,1.839062478,1.708418773,legume_seed,29,0.730832198,0.903866716,1.400428736
+9500265000,"Peanut, oil",weight of oil,,23737,3.158,4.656,1,none,2,,DB value,1,3.158,0.000,DB value,2,4.656,0.414,,,,oils,16,11.8733252,5.663275464,1.506460892,oils,19,3.607475758,2.530618213,3.266082498
+9500275000,Peppermint,weight of leaves and stems,Includes other mints (Mentha spp.) except spearmint.,3490,1.551,0.221,1,None,1,spinach,PROXY,3,1.551,1.546,PROXY,3,0.221,0.084,,,,greens,10,2.56572747,1.519767307,0.918558907,greens,22,0.185619741,0.097833632,0.116445184
+9500276000,"Peppermint, oil",weight of oil,,4,11.900,2.729,1,None,2,coconut_oil,PROXY,3,11.900,0.996,PROXY,3,2.729,0.981,,,,oils,16,11.8733252,5.663275464,5.675979432,oils,19,3.607475758,2.530618213,1.914681974
+9500306000,"Psyllium, seed",dry weight of psyllium husks,,2,2.584,0.393,1,None,1,grains,PROXY,31,2.584,1.185,PROXY,45,0.393,0.204,,,,grains,31,2.58412131,1.18541907,1.18541907,grains,45,0.393493457,0.203614676,0.203614676
+9500335000,Seaweed,weight of vegetation (wet and dry),"Includes algae, Irish moss, kelp, spirulina, agar, laver, and wakame.",19067,2.566,0.186,1,FICRCD,1,greens,PROXY,10,2.566,1.520,PROXY,22,0.186,0.098,,,,greens,10,2.56572747,1.519767307,1.519767307,greens,22,0.185619741,0.097833632,0.097833632
+9500362000,"Sugarcane, sugar",dry weight of cane sugar (sucrose),Sucrose is a disaccharide obtained from sugar cane and sugar beet.,49995,5.146,0.700,1,None,2,,DB value,2,5.146,2.304,DB value,2,0.700,0.046,,,,sweeteners,14,8.845345584,17.46832841,10.16189199,sweeteners,13,1.061185914,1.805599706,1.190923298
+9500363000,"Sugarcane, molasses",weight of molasses,Includes blackstrap molasses.,7615,5.079,0.488,1,None,2,,DB value,1,5.079,0.000,DB value,1,0.488,#DIV/0!,,,,sweeteners,14,8.845345584,17.46832841,10.02972678,sweeteners,13,1.061185914,1.805599706,0.829647666
+9500372000,"Tea, dried",dry weight of tea leaves,,7481,53.431,3.820,1,None,2,,DB value,3,53.431,3.776,DB value,5,3.820,2.447,,,,choc_coffee_tea,9,40.58585826,29.42495061,38.73805345,DIRECT,5,,2.446866468,2.446866468
+9500373000,"Tea, instant",dry weight of powder,,4160,154.951,11.079,2.9,"proxy diff between tea and instant tea, from coffee",2,tea,PROXY,3,53.431,3.776,PROXY,5,3.820,2.447,,,,choc_coffee_tea,9,40.58585826,29.42495061,38.73805345,tea,5,3.820285714,2.446866468,2.446866468
+9500390000,Vinegar,"Weight of vinegar made from apple, grape or rice juice in recipe",,30618,7.986,1.319,1.5,None,1,apple,PROXY,18,1.437,1.348,PROXY,36,0.206,0.216,0.547944723,0.03086268,,apple,18,1.437166667,1.347966246,1.347966246,apple,36,0.205764321,0.216085896,0.216085896
+9500397000,Water chestnut,weight of tuber,,961,1.849,0.277,1.3,FICRCD,1,roots,PROXY,14,1.422,0.574,PROXY,25,0.213,0.180,,,,roots,14,1.422071429,0.574420439,0.574420439,roots,25,0.2134,0.179920353,0.179920353
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
