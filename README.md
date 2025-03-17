@@ -1,4 +1,4 @@
-_Last updated: March 12th, 2025_
+_Last updated: March 14th, 2025_
 
 # ds1_nhanes
 
@@ -8,12 +8,6 @@ Authors: Silas Decker, Jeannine Valcour, Liliana Bettolo, Tessa Lawler, Christop
 
 Herein lies the repository for 'Dietary Patterns in the U.S. and Associated Health and
 Environmental Impact: A Cluster Analysis', a project for CSYS 5870: Data Science 1. 
-
-## On Working Directories
-
-We have been only somewhat successfully trying to manage this project such that it works in the Colab environment and also runs locally if it is pulled from GitHub. We are currently using the magic function `%cd` in notebooks to persistenly change the directory to the shared Google Drive. Still not clear whether the mounting of Google Drive will work for everyone, so we will have to chat and troubleshoot if it does not.
-
-Anyhow, libraries in the local version of the project will be managed with in a `venv` and recorded in `requirements.txt`. 
 
 ## File Structure
 
@@ -35,17 +29,35 @@ Loose Files
 - The `README.md` is a markdown that produces the html version shown on the repo. This will be rendered and included as a `.pdf` to make it easier to access on Drive as well.
 - The text of the license is included in `LICENSE.md`. 
 
-## Reproduction
+## Running the Project
 
-To reproduce the analysis, follow these steps.
+This project is set up such that it can be on either Google Colab or cloned and run locally with relative ease.
 
-### 1. Create a Virtual Environment
+### Colab
+
+The top of each notebook should contain a cell where the Google Drive is mounted to the notebook. Once mounted, this should provide access to the `ds1_nhanes` directory which contains the project and datasets. Note that this will only work if the `ds1_nhanes` directory is at the top of your MyDrive folder. If it is not, create a shortcut for it there. 
+
+The default working directory when opening a notebook is the same directory in which the notebook is located. This is not actually what we want. We want it to be the root of the project directory. So, once the drive is mounted, the next cell should use `os.chdir()` to set the working directory to the `ds1_nhnanes` folder. Then the notebook should be ready to run.
+
+### Local
+
+For local use, we will clone the repository from GitHub and reproduce a virtual environment with libraries used in the project. Note that there is currently not a particularly smooth way to deal with different working directories here. As of now, there is a commented out cell at the top of each notebook that the user should un-comment and run to set the proper working directory for local use. Working on a better solution for this.
+
+To run the project locally:
+
+#### 1. Clone Git Repository
+
+```
+git clone https://github.com/ChrisDonovan307/ds1_nhanes.git
+```
+
+#### 2. Create a Virtual Environment
 
 ```
 python -m venv .venv
 ```
 
-### 2. Activate Environment
+#### 3. Activate Environment
 
 For Mac/Linux, activate the environment using:
 
@@ -65,7 +77,7 @@ For Windows PowerShell, activate the environment using:
 .venv\Scripts\Activate.ps1
 ```
 
-### 3. Install Packages
+#### 4. Install Packages
 
 Install package versions as specified in the `requirements.txt` file with:
 
@@ -73,11 +85,11 @@ Install package versions as specified in the `requirements.txt` file with:
 pip install -r requirements.txt
 ```
 
-### 4. Run a Shell or Something
+#### 5. Run a Shell or Something
 
 Might make sense to run a shell that runs the `.ipynb` scripts in order?
 
-### 5. But Really
+#### 6. But Really
 
 The plan is to eventually deploy the analysis in a Docker container unless we suddenly decide it isn't worth the trouble in about a month. 
 
