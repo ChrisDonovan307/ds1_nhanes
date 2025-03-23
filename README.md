@@ -17,10 +17,6 @@ Folders
 - `notebooks/` should have `.ipynb` files and contain the main workflow for the project. 
 - `ds1_nhanes/` is the package directory which will contain modules with functions to use throughout the project. They will be imported and called from notebooks.
 - The `outputs/` folder should contain graphs and tables ready to throw into Overleaf. 
-- The `tests/` folder will contain unit testing for project functions and deployment. 
-- The `dev/` folder will exist only on Colab and contain a jenky terminal and possibly other tools in development. Generally no need to run anything from here.
-- The `.git/` folder is used to manage version control. There is no need to edit it directly or interact with it much at all. Git is managed from the command line.
-- Folders should have a `.info` file with provenance for the files contained therein, particularly for modified datasets.
 
 Loose Files
 
@@ -41,7 +37,7 @@ The default working directory when opening a notebook is the same directory in w
 
 ### Local
 
-For local use, we will clone the repository from GitHub and reproduce a virtual environment with libraries used in the project. Note that there is currently not a particularly smooth way to deal with different working directories here. As of now, there is a commented out cell at the top of each notebook that the user should un-comment and run to set the proper working directory for local use. Working on a better solution for this.
+For local use, we will clone the repository from GitHub and reproduce a virtual environment with libraries used in the project. The first code chunk should set the working drive to the root directory with a local path.
 
 To run the project locally:
 
