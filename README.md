@@ -1,4 +1,4 @@
-_Last updated: March 14th, 2025_
+_Last updated: March 31st, 2025_
 
 # ds1_nhanes
 
@@ -17,6 +17,8 @@ Folders
 - `notebooks/` should have `.ipynb` files and contain the main workflow for the project. 
 - `ds1_nhanes/` is the package directory which will contain modules with functions to use throughout the project. They will be imported and called from notebooks.
 - The `outputs/` folder should contain graphs and tables ready to throw into Overleaf. 
+- The `graveyard/` folder is a place to store trash that might turn out to be treasure one day.
+- The `.git/` folder is used to manage version control. There is no need to edit it directly or interact with it much at all. Git is managed from the command line.
 
 Loose Files
 
@@ -31,9 +33,7 @@ This project is set up such that it can be on either Google Colab or cloned and 
 
 ### Colab
 
-The top of each notebook should contain a cell where the Google Drive is mounted to the notebook. Once mounted, this should provide access to the `ds1_nhanes` directory which contains the project and datasets. Note that this will only work if the `ds1_nhanes` directory is at the top of your MyDrive folder. If it is not, create a shortcut for it there. 
-
-The default working directory when opening a notebook is the same directory in which the notebook is located. This is not actually what we want. We want it to be the root of the project directory. So, once the drive is mounted, the next cell should use `os.chdir()` to set the working directory to the `ds1_nhnanes` folder. Then the notebook should be ready to run.
+The top of each notebook should contain a cell where the Google Drive is mounted to the notebook and the working directory is set to the root of the `ds1_nhanes` folder. Note that this will only work if the `ds1_nhanes` directory is at the top of your MyDrive folder. If it is not, create a shortcut for it there. 
 
 ### Local
 
@@ -81,9 +81,15 @@ Install package versions as specified in the `requirements.txt` file with:
 pip install -r requirements.txt
 ```
 
-#### 5. Run a Shell or Something
+#### 5. Run Shell Script
 
-Might make sense to run a shell that runs the `.ipynb` scripts in order?
+The `run.sh` script in the root directory will run each of the notebooks in the analysis to refresh the results of the project. You can run it from the command line using:
+
+```
+source run.sh
+```
+
+Should probably not be saving over our own notebooks like this. Perhaps outputs should end up going somewhere else so we can compare the original results to the reproduced results.
 
 #### 6. But Really
 
@@ -106,8 +112,8 @@ NHANES datasets are made available to the public with attribution by the [Center
 
 The [Food Patterns Equivalents Database (FPED)](https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/food-surveys-research-group/docs/fndds-download-databases/) is made available by the USDA apparently without any license or explanation. Which is fucked up because that means it is basically copyrighted. But this is obviously meant to be available to the public. Can anyone find a license for this?
 
-Carbon emissions and cumulative energy demand for food consumption patterns were derived from the [dataFIELD database](https://css.umich.edu/page/datafield) at the Center for Sustainable Systems at the University of Michigan. It is released with a publication from [Heller et al. (2018)](https://iopscience.iop.org/article/10.1088/1748-9326/aab0ac#erlaab0acfn2). However, the data are also lacking any license that I can find. 
-
 ## Changelog
+
+**2025-03-31:** Giving scripts number scheme, adding `run.sh` to run all notebooks and refresh outputs.
 
 **2025-03-11:** Built project structure in Colab, linked Colab with GitHub, and shared all repositories with team members.
