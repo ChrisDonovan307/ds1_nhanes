@@ -6,3 +6,5 @@ dev/*
 
 # Raw data files are actually too big for Git without LFS
 data/raw/nhanes*
+
+ds1_nhanes/__pycache__/
