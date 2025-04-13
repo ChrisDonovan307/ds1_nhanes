@@ -8,3 +8,5 @@ dev/*
 data/raw/nhanes*
 
 ds1_nhanes/__pycache__/
+.gsheets*
+*.png

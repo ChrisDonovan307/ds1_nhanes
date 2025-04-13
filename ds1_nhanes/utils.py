@@ -1,12 +1,6 @@
 import plotly.express as px
 import plotly.graph_objects as go
 
-# def hello_world():
-#     '''
-#     do some stuff
-#     '''
-#     print('Hello, world')
-
 def graph_plotly(df, labels, title=None, *args, **kwargs):
     fig = go.Figure()
     fig.add_trace(go.Scatter3d(
