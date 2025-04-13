@@ -8,5 +8,11 @@ dev/*
 data/raw/nhanes*
 
 ds1_nhanes/__pycache__/
-.gsheets*
+*.gsheets
 *.png
+.Rproj.user
+.Rhistory
+.Rdata
+renv/*
+*.Rproj
+README.Docker.md

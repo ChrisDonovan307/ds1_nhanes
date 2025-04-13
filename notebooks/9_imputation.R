@@ -114,12 +114,6 @@ summary(model)
 coeftest(model)
 # Significant differences by age, race, and education, but not gender
 
-# Pseudo R2
-DescTools::PseudoR2(model, which = 'McFadden')
-# 0.015
-# Not a terribly impressive pseudo R2
-# but it's definitely MAR and covaries with several other demographics
-
 
 # Imputation -------------------------
 

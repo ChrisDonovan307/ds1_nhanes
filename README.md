@@ -81,19 +81,35 @@ Install package versions as specified in the `requirements.txt` file with:
 pip install -r requirements.txt
 ```
 
-#### 5. Run Shell Script
+#### 5. Create renv
+
+This is to run the R script for missing data and imputation:
+
+```
+install.packages('renv')
+renv::restore()
+```
+
+#### 6. Run Shell Script
 
 The `run.sh` script in the root directory will run each of the notebooks in the analysis to refresh the results of the project. You can run it from the command line using:
 
 ```
-source run.sh
+bash run.sh
 ```
 
-Should probably not be saving over our own notebooks like this. Perhaps outputs should end up going somewhere else so we can compare the original results to the reproduced results.
+### Docker
 
-#### 6. But Really
+This project is also available on [Docker Hub](https://hub.docker.com/). It can be pulled from the command line using:
 
-The plan is to eventually deploy the analysis in a Docker container unless we suddenly decide it isn't worth the trouble in about a month. 
+```
+docker pull cdonovan1/ds1_nhanes
+docker run -it --rm cdonovan1/ds1_nhanes
+```
+
+This will open an interactive session where you will be able to use `bash run.sh` to run the analysis in the contained Debian environment. The `.venv` and `renv` will already be in place, so it should run smoothly and easily. This will also ensure that the results of the analysis are consistent regardless of which OS or versions of R/python you are using.
+
+Still working out how to export outputs to a volume so they can be pulled to your local machine.
 
 ## Data and Licensing
 
