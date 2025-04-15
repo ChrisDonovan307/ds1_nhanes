@@ -9,10 +9,13 @@ data/raw/nhanes*
 
 ds1_nhanes/__pycache__/
 *.gsheets
-*.png
+
+# R things
 .Rproj.user
 .Rhistory
 .Rdata
 renv/*
 *.Rproj
+
+# Docker things
 README.Docker.md
