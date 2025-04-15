@@ -1,8 +1,19 @@
-_Last updated: March 31st, 2025_
+_Last updated: April 14th, 2025_
 
 # ds1_nhanes
 
 Authors: Silas Decker, Jeannine Valcour, Liliana Bettolo, Tessa Lawler, Christopher Donovan
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [File Structure](#file-structure)
+- [Running the Project](#running-the-project)
+  - [Colab](#colab)
+  - [Local](#local)
+  - [Docker](#docker)
+- [Data and Licensing](#data-and-licensing)
+- [Changelog](#changelog)
 
 ## Introduction
 
