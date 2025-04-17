@@ -12,16 +12,17 @@ pacman::p_load(
   lmtest,
   forcats,
   pscl,
-  tictoc
+  tictoc,
+  missRanger
 )
 pacman::p_load_gh('ChrisDonovan307/projecter')
-full <- read.csv('data/clean/nhanes_2017_2023_clean.csv')
-get_str(full)
+clean <- read.csv('data/clean/nhanes_2017_2023_clean.csv')
+get_str(clean)
 
 # For now we don't care about missing in prop_pbp
 # That is a separate issue. Let's remove it
 # Also ditch income quartiles, same missingness as og income
-full <- select(full, -any_of(c(
+full <- select(clean, -any_of(c(
   'prop_pbp',
   'oz_pbp',
   'pf_total_calc',
@@ -189,25 +190,23 @@ range(pR2s)
 
 # Using missForest to impute data and create clean dataset
 # Can use FPED variables to help predict
-get_str(full)
+get_str(clean)
 get_str(dat)
 
-input <- dat %>%
+input <- clean %>%
   select(
-    gender:total_cholesterol,
+    f_total_.cup_eq.:income_ratio,
     blood_mercury,
     avg_systolic_bp,
     avg_diastolic_bp
   )
 get_str(input)
 
-# Miss ranger
-pacman::p_load(missRanger)
-
+# Miss ranger imputation
 out <- missRanger(
   input,
   pmm.k = 5,
-  num.trees = 200,
+  num.trees = 100,
   seed = 42,
   keep_forests = TRUE,
   verbose = 1
@@ -221,50 +220,24 @@ out$mean_pred_errors
 out$pred_errors[2, ]
 
 
-# Run missForest
-# set.seed(42)
-# get_time()
-# tic()
-# mf_out <- missForest(
-#   input,
-#   ntree = 100,
-#   mtry = 4,
-#   variablewise = TRUE,
-#   verbose = TRUE
-# )
-# toc()
-# This is ridiculously slow
-#
-# get_str(mf_out)
-#
-# # Check out imputation error
-# mf_out$OOBerror
-# # MSE is 2.044703
-#
-# # Pull out clean dataset
-# clean <- mf_out$ximp
-# get_str(clean)
-
 
 # Wrangle -----------------------------------------------------------------
 
 
-# Combine back with full
-get_str(full)
+# Combine back with clean
+get_str(clean)
 get_str(out$data)
 
-# Remove duped names
-df <- full %>%
-  select(-all_of(c(names(out$data))))
+# Just need SEQN, weight, FPED, and 4 biomarkers
+df <- clean %>%
+  select(
+    SEQN,
+    weight_2d
+  )
 get_str(df)
 
 # Combine
 df <- bind_cols(df, out$data)
-get_str(df)
-
-# Remove extra biomarkers
-df <- df %>%
-  select(-c(cholesterol_std_dev:serum_ferritin))
 get_str(df)
 
 # Get parenthesis back in
