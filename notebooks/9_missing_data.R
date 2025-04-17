@@ -7,7 +7,6 @@ pacman::p_load(
   naniar,
   ggplot2,
   skimr,
-  missForest,
   ggpubr,
   stringr,
   lmtest,
@@ -71,28 +70,28 @@ mean(is.na(select(full, -income_ratio_qs))) * 100
 dat <- select(full, gender:last_col())
 get_str(dat)
 
-vis_miss <- vis_miss(
-    select(dat, -income_ratio_qs),
-    warn_large_data = FALSE,
-    cluster = TRUE,
-    show_perc = TRUE
-)
-vis_miss +
-  theme(
-    plot.margin = margin(0, 50, 0, 0),
-    panel.grid.major = element_blank(),
-    panel.grid.minor = element_blank()
-  )
-# Some income missing, and lots of biomarkers.
-
-# Let's save it
-ggsave(
-  'outputs/checkin_3/vis_miss.png',
-  width = 6,
-  height = 6,
-  units = 'in',
-  bg = 'white'
-)
+# vis_miss <- vis_miss(
+#     select(dat, -income_ratio_qs),
+#     warn_large_data = FALSE,
+#     cluster = TRUE,
+#     show_perc = TRUE
+# )
+# vis_miss +
+#   theme(
+#     plot.margin = margin(0, 50, 0, 0),
+#     panel.grid.major = element_blank(),
+#     panel.grid.minor = element_blank()
+#   )
+# # Some income missing, and lots of biomarkers.
+#
+# # Let's save it
+# ggsave(
+#   'outputs/checkin_3/vis_miss.png',
+#   width = 6,
+#   height = 6,
+#   units = 'in',
+#   bg = 'white'
+# )
 
 # Check by variable
 miss_var_summary(dat)
@@ -194,36 +193,87 @@ get_str(full)
 get_str(dat)
 
 input <- dat %>%
-  select(-any_of(c(
-    'income_ratio_qs',
-    'serum_ferritin',
-    'glycohemoglobin'
-  )))
+  select(
+    gender:total_cholesterol,
+    blood_mercury,
+    avg_systolic_bp,
+    avg_diastolic_bp
+  )
 get_str(input)
 
-# Run missForest
-set.seed(42)
-get_time()
-tic()
-mf_out <- missForest(
+# Miss ranger
+pacman::p_load(missRanger)
+
+out <- missRanger(
   input,
-  ntree = 100,
-  mtry = 4,
-  variablewise = TRUE,
-  verbose = TRUE
+  pmm.k = 5,
+  num.trees = 200,
+  seed = 42,
+  keep_forests = TRUE,
+  verbose = 1
 )
-toc()
+summary(out)
+
+# Check errors
+out$mean_pred_errors
+
+# Best errors
+out$pred_errors[2, ]
+
+
+# Run missForest
+# set.seed(42)
+# get_time()
+# tic()
+# mf_out <- missForest(
+#   input,
+#   ntree = 100,
+#   mtry = 4,
+#   variablewise = TRUE,
+#   verbose = TRUE
+# )
+# toc()
 # This is ridiculously slow
+#
+# get_str(mf_out)
+#
+# # Check out imputation error
+# mf_out$OOBerror
+# # MSE is 2.044703
+#
+# # Pull out clean dataset
+# clean <- mf_out$ximp
+# get_str(clean)
 
-get_str(mf_out)
 
-# Check out imputation error
-mf_out$OOBerror
-# MSE is 2.044703
+# Wrangle -----------------------------------------------------------------
 
-# Pull out clean dataset
-clean <- mf_out$ximp
-get_str(clean)
+
+# Combine back with full
+get_str(full)
+get_str(out$data)
+
+# Remove duped names
+df <- full %>%
+  select(-all_of(c(names(out$data))))
+get_str(df)
+
+# Combine
+df <- bind_cols(df, out$data)
+get_str(df)
+
+# Remove extra biomarkers
+df <- df %>%
+  select(-c(cholesterol_std_dev:serum_ferritin))
+get_str(df)
+
+# Get parenthesis back in
+names(df) <- names(df) %>%
+  str_replace('\\.', '\\(') %>%
+  str_replace('eq\\.', 'eq\\)') %>%
+  str_replace('drinks\\.', 'drinks\\)') %>%
+  str_replace('grams\\.', 'grams\\)')
+names(df)
 
 
 
@@ -231,4 +281,4 @@ get_str(clean)
 
 
 # Save as csv for EDA script
-# write.csv(clean, 'data/clean/nhanes_2017_2023_imputed.csv')
+write.csv(df, 'data/clean/nhanes_2017_2023_imputed.csv')
