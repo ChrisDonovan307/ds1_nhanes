@@ -197,7 +197,8 @@ input <- dat %>%
     gender:total_cholesterol,
     blood_mercury,
     avg_systolic_bp,
-    avg_diastolic_bp
+    avg_diastolic_bp,
+    -income_ratio_qs
   )
 get_str(input)
 
@@ -220,30 +221,6 @@ out$mean_pred_errors
 # Best errors
 out$pred_errors[2, ]
 
-
-# Run missForest
-# set.seed(42)
-# get_time()
-# tic()
-# mf_out <- missForest(
-#   input,
-#   ntree = 100,
-#   mtry = 4,
-#   variablewise = TRUE,
-#   verbose = TRUE
-# )
-# toc()
-# This is ridiculously slow
-#
-# get_str(mf_out)
-#
-# # Check out imputation error
-# mf_out$OOBerror
-# # MSE is 2.044703
-#
-# # Pull out clean dataset
-# clean <- mf_out$ximp
-# get_str(clean)
 
 
 # Wrangle -----------------------------------------------------------------
