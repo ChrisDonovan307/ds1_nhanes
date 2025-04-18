@@ -15,13 +15,13 @@ pacman::p_load(
   tictoc
 )
 pacman::p_load_gh('ChrisDonovan307/projecter')
-full <- read.csv('data/clean/nhanes_2017_2023_clean.csv')
-get_str(full)
+raw <- read.csv('data/clean/nhanes_2017_2023_clean.csv')
+get_str(raw)
 
 # For now we don't care about missing in prop_pbp
 # That is a separate issue. Let's remove it
 # Also ditch income quartiles, same missingness as og income
-full <- select(full, -any_of(c(
+full <- select(raw, -any_of(c(
   'prop_pbp',
   'oz_pbp',
   'pf_total_calc',
@@ -228,10 +228,11 @@ out$pred_errors[2, ]
 
 # Combine back with full
 get_str(full)
+get_str(raw)
 get_str(out$data)
 
 # Remove duped names
-df <- full %>%
+df <- raw %>%
   select(-all_of(c(names(out$data))))
 get_str(df)
 
@@ -252,6 +253,7 @@ names(df) <- names(df) %>%
   str_replace('grams\\.', 'grams\\)')
 names(df)
 
+get_str(df)
 
 
 # Save --------------------------------------------------------------------
