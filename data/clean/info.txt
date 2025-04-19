@@ -1,0 +1,4 @@
+2025-04-17
+- clean.csv is the output of the 1_wrangling script. It contains SEQN, weights, FPED food groups, demographics, and biomarkers. It contains missing data in income and biomarkers.
+- imputed.csv is the output of the 3_missing_data script. It contains relevant variables only, including SEQN, weights, FPED, demographics, and the 4 biomarkers we are analyzing. It has been imputed with missRanger, so it is complete. This should be used in our outcome analyses.
+- clustered.csv is the output from the 4_cluster script. It is the same as the imputed file, but it includes cluster assignments. As of 2025-04-18, methods are not settled, but we can use this to work out our outcome analysis in the meantime.
