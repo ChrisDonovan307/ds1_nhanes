@@ -111,14 +111,14 @@ bash run.sh
 
 ### Docker
 
-This project is also available on [Docker Hub](https://hub.docker.com/). It can be pulled from the command line using:
+This project is also available on [Docker Hub](https://hub.docker.com/). It can be pulled from the command line on any machine with a Docker engine installed using:
 
 ```
 docker pull cdonovan1/ds1_nhanes
 docker run -it --rm cdonovan1/ds1_nhanes
 ```
 
-This will open an interactive session where you will be able to use `bash run.sh` to run the analysis in the contained Debian environment. The `.venv` and `renv` will already be in place, so it should run smoothly and easily. This will also ensure that the results of the analysis are consistent regardless of which OS or versions of R/python you are using.
+Upon running the container, the `run.sh` will automatically be executed and run the analysis from start to finish in the contained Debian environment. This will ensure that the results of the analysis are consistent regardless of which OS or versions of R/python you are using.
 
 Still working out how to export outputs to a volume so they can be pulled to your local machine.
 
