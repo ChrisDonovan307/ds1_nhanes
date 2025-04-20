@@ -49,5 +49,8 @@ RUN dos2unix run.sh
 # Switch to the non-privileged user to run the application.
 # USER appuser
 
+# Make run file executable
+RUN chmod +x run.sh
+
 # Launch bash terminal
-CMD ["/bin/bash"]
+CMD ["./run.sh"]

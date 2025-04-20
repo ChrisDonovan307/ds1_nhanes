@@ -16,6 +16,9 @@ ds1_nhanes/__pycache__/
 .Rdata
 renv/*
 *.Rproj
+Rplots.pdf
 
 # Docker things
 README.Docker.md
+
+
