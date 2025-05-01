@@ -1,4 +1,5 @@
 2025-04-17
-- clean.csv is the output of the 1_wrangling script. It contains SEQN, weights, FPED food groups, demographics, and biomarkers. It contains missing data in income and biomarkers.
+- clean.csv is the output of the 1_wrangling script. It contains SEQN, weights, FPED food groups, demographics, and biomarkers. It contains missing data in income and biomarkers. Children >18 have been removed.
 - imputed.csv is the output of the 3_missing_data script. It contains relevant variables only, including SEQN, weights, FPED, demographics, and the 4 biomarkers we are analyzing. It has been imputed with missRanger, so it is complete. This should be used in our outcome analyses.
-- clustered.csv is the output from the 4_cluster script. It is the same as the imputed file, but it includes cluster assignments. As of 2025-04-18, methods are not settled, but we can use this to work out our outcome analysis in the meantime.
+- clustered.csv is the output from the 4_cluster script. It is the same as the imputed file, but it includes cluster assignments based on Kmeans clustering (k=4) on consolidated FPED variables.
+- hei.csv is the output of the 5_hei script. It adds the hei_score to each respondent. It also removed a lot of the extraneous columns, so it is down to HEI scores, demographics, legume variables, biomarkers, and clusters
